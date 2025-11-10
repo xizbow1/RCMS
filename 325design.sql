@@ -51,7 +51,7 @@ create table Instrument (
     Inst_supertype varchar2(20) not null,
     Inst_subtype varchar2(20),
     Inst_isRentable boolean not null,
-    Inst_price int,
+    Inst_price decimal(10, 2),
     Inst_isRented boolean
 );
 
@@ -62,7 +62,7 @@ create table Rental (
     Inst_id int not null,
     Rental_start date not null,
     Rental_due date,
-    Rental_cost int,
+    Rental_cost decimal(10, 2),
     foreign key (Cust_id) references Customer(Cust_id),
     foreign key (Inst_id) references Instrument(Inst_id)
 );
@@ -72,7 +72,7 @@ create table Repair (
     Repair_id int primary key,
     Cust_id int not null,
     Inst_id int,
-    Repair_cost int,
+    Repair_cost decimal(10, 2),
     Repair_date_read date,
     foreign key (Cust_id) references Customer(Cust_id),
     foreign key (Inst_id) references Instrument(Inst_id)
@@ -81,7 +81,7 @@ create table Repair (
 -- Table to hold employees. Job title can be null because of new employees or similar.
 create table Employee (
     Empl_id int primary key,
-    Empl_salary int not null,
+    Empl_salary decimal(10, 2) not null,
     Empl_job_title varchar2(20),
     Empl_fname varchar2(30) not null,
     Empl_lname varchar2(30) not null,
@@ -100,7 +100,7 @@ create table Empl_email (
 create table Class (
     Class_id int primary key,
     Class_level char(1) not null,
-    Class_cost int,
+    Class_cost decimal(10, 2),
     Class_schedule date not null,
     Empl_id int not null,
     foreign key (Empl_id) references Employee(Empl_id)
