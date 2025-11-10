@@ -136,6 +136,7 @@ create table Concert (
     Concert_cost int
 );
 
+-- Table to hold the Class_id for concerts (MV)
 drop table Concert_class_id;
 create table Concert_class_id (
     Concert_id int,
