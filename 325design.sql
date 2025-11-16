@@ -15,8 +15,8 @@ create table Supplier (
 drop table Customer cascade constraints;
 create table Customer (
     Cust_id int primary key,
-    Cust_lname varchar(30) not null,
-    Cust_fname varchar(30) not null,
+    Cust_lname varchar2(30) not null,
+    Cust_fname varchar2(30) not null,
     Cust_creditbal decimal(10,2) not null
 );
 
@@ -43,22 +43,22 @@ create table Invoice (
 drop table Part cascade constraints;
 create table Part (
     Part_id int primary key,
-    Part_type varchar(50) not null,
+    Part_type varchar2(50) not null,
     Part_price decimal(10,2) not null,
     Part_stock int not null,
     Supplier_id int,
     foreign key (Supplier_id) references Supplier(Supplier_id)
 );
 
--- Table to hold store-owned instruments. Supertype = Piano, Violin, etc, subtype = Grand piano, alto sax
+-- Table to hold store-owned instruments. Supertype = Piano, Violin, etc, subtype = Grand piano, alto sax. isRentable and isRented are 0, 1
 drop table Instrument cascade constraints;
 create table Instrument (
     Inst_id int primary key,
     Inst_supertype varchar2(20) not null,
     Inst_subtype varchar2(20),
-    Inst_isRentable boolean not null,
+    Inst_isRentable char(1) not null,
     Inst_price decimal(10, 2),
-    Inst_isRented boolean
+    Inst_isRented char(1) not null
 );
 
 -- Table to hold customer instrument rentals.
