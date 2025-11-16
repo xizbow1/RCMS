@@ -1,0 +1,44 @@
+Blake Culbertson, Andrew Gallimore, and Abbi Ochoa
+CS 325 - Fall 2025
+11/16/25
+
+Supplier(SUPPLIER_ID, Supplier_name, Supplier_phone, Supplier_email)
+
+Customer(CUST_ID, Cust_lname, Cust_fname, Cust_creditbal)
+
+Cust_email(CUST_ID, CUST_EMAIL) 
+FOREIGN KEY (CUST_ID) REFERENCES Customer(CUST_ID)
+
+Invoice(INVOICE_ID, Invoice_date, Cust_id, Invoice_total)
+Cust_id REFERENCES Customer(CUST_ID)
+
+Part(PART_ID, Part_type, Part_price, Part_stock, Supplier_id)
+foreign key (Supplier_id) REFERENCES Supplier(SUPPLIER_id)
+
+Instrument(INST_ID, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented)
+
+Rental(Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost)
+foreign key (Cust_id) REFERENCES Customer(CUST_ID)
+foreign key (Inst_id) REFERENCES Instrument(INST_ID)
+
+Repair(REPAIR_ID, Cust_id, Inst_id, Repair_cost, Repair_date_read)
+foreign key (Cust_id) REFERENCES Customer(CUST_ID)
+foreign key (Inst_id) REFERENCES Instrument(INST_ID)
+
+Employee(EMPL_ID, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
+
+Empl_email(EMPL_ID, EMPL_EMAIL)
+FOREIGN KEY (EMPL_ID) REFERENCES Employee(EMPL_ID)
+
+Class(CLASS_ID, Class_level, Class_cost, Class_schedule, Empl_id)
+foreign key (Empl_id) REFERENCES Employee(EMPL_ID)
+
+Class_instruments(CLASS_ID, INST_ID)
+FOREIGN KEY (CLASS_ID) REFERENCES Class(Class_id)
+FOREIGN KEY (INST_ID) REFERENCES Instrument(INST_ID)
+
+Concert(CONCERT_ID, Concert_date, Concert_cost)
+
+Concert_class_id(CONCERT_ID, CLASS_ID)
+FOREIGN KEY (CONCERT_ID) REFERENCES Concert(Concert_id)
+FOREIGN KEY (CLASS_ID) REFERENCES Class(Class_id)
