@@ -3,7 +3,7 @@
 -- 11/3/25
 
 -- Table to hold a supplier. Supplier phone and email can be null because there may be other contact methods.
-drop table Supplier;
+drop table Supplier cascade constraints;
 create table Supplier (
     Supplier_id int primary key,
     Supplier_name varchar2(30) not null,
@@ -12,7 +12,7 @@ create table Supplier (
 );
 
 -- Table to store customer information, including Cust_creditbal to denote store credit.
-drop table Customer;
+drop table Customer cascade constraints;
 create table Customer (
     Cust_id int primary key,
     Cust_lname varchar(30) not null,
@@ -21,7 +21,7 @@ create table Customer (
 );
 
 -- Table to hold customer emails (MV)
-drop table Cust_email;
+drop table Cust_email cascade constraints;
 create table Cust_email (
     Cust_id int,
     Cust_email varchar2(50),
@@ -30,7 +30,7 @@ create table Cust_email (
 );
 
 -- Table to store customer invoices. Invoice_total denotes the total amount 
-drop table Invoice;
+drop table Invoice cascade constraints;
 create table Invoice (
     Invoice_id int primary key,
     Invoice_date date not null,
@@ -40,7 +40,7 @@ create table Invoice (
 );
 
 -- Table to store different instrument parts.
-drop table Part;
+drop table Part cascade constraints;
 create table Part (
     Part_id int primary key,
     Part_type varchar(50) not null,
@@ -51,7 +51,7 @@ create table Part (
 );
 
 -- Table to hold store-owned instruments. Supertype = Piano, Violin, etc, subtype = Grand piano, alto sax
-drop table Instrument;
+drop table Instrument cascade constraints;
 create table Instrument (
     Inst_id int primary key,
     Inst_supertype varchar2(20) not null,
@@ -62,7 +62,7 @@ create table Instrument (
 );
 
 -- Table to hold customer instrument rentals.
-drop table Rental;
+drop table Rental cascade constraints;
 create table Rental (
     Rental_id int primary key,
     Cust_id int not null,
@@ -75,7 +75,7 @@ create table Rental (
 );
 
 -- Table to hold repair orders. Inst_id can be null because it can be a customer instrument. Repair cost can be null because it can be free.
-drop table Repair;
+drop table Repair cascade constraints;
 create table Repair (
     Repair_id int primary key,
     Cust_id int not null,
@@ -87,18 +87,18 @@ create table Repair (
 );
 
 -- Table to hold employees. Job title can be null because of new employees or similar.
-drop table Employee;
+drop table Employee cascade constraints;
 create table Employee (
     Empl_id int primary key,
     Empl_salary decimal(10, 2) not null,
     Empl_job_title varchar2(20),
     Empl_fname varchar2(30) not null,
-    Empl_lname varchar2(30) not null,
+    Empl_lname varchar2(30) not null
 );
 
 
 -- Table to hold Empl_email (MV)
-drop table Empl_email;
+drop table Empl_email cascade constraints;
 create table Empl_email (
     Empl_id int,
     Empl_email varchar2(50),
@@ -107,7 +107,7 @@ create table Empl_email (
 );
 
 -- Table to hold class lesson sessions. Empl_id is the employee teaching the class, and class_level is from 1-3 for beginning/intermediate/master. Class cost can be free, so it can be null.
-drop table Class;
+drop table Class cascade constraints;
 create table Class (
     Class_id int primary key,
     Class_level char(1) not null,
@@ -118,7 +118,7 @@ create table Class (
 );
 
 -- Table to hold Class_instruments (MV)
-drop table Class_instruments;
+drop table Class_instruments cascade constraints;
 create table Class_instruments (
     Class_id int,
     Inst_id int,
@@ -129,7 +129,7 @@ create table Class_instruments (
 
 
 -- Table to hold concerts put on by classes
-drop table Concert;
+drop table Concert cascade constraints;
 create table Concert (
     Concert_id int primary key,
     Concert_date date not null,
@@ -137,7 +137,7 @@ create table Concert (
 );
 
 -- Table to hold the Class_id for concerts (MV)
-drop table Concert_class_id;
+drop table Concert_class_id cascade constraints;
 create table Concert_class_id (
     Concert_id int,
     Class_id int,
