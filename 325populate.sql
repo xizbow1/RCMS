@@ -117,3 +117,163 @@ insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, 
 insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (13, 'Piano', 'Grand Piano', 1, 29.02, 0);
 insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (14, 'Guitar', 'Electric Guitar', 0, 79.25, 1);
 insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (15, 'Saxophone', 'Alto Saxophone', 1, 32.78, 0);
+
+delete from Rental;
+
+prompt Inserting Rental
+
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (1, 1, 1, '12/12/2016', '11/22/2023', 1691.44);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (2, 2, 2, '12/5/2018', '9/2/2025', 4969.19);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (3, 3, 3, '5/20/2018', '10/31/2024', 2080.39);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (4, 4, 4, '12/11/2020', '4/15/2023', 1859.24);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (5, 5, 5, '7/21/2020', '8/9/2021', 3269.16);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (6, 6, 6, '11/13/2019', '12/11/2023', 4852.78);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (7, 7, 7, '5/21/2019', '6/6/2025', 4134.26);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (8, 8, 8, '1/21/2020', '11/30/2024', 2894.93);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (9, 9, 9, '2/23/2019', '6/21/2021', 979.4);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (10, 10, 10, '11/22/2015', '10/14/2021', 1640.15);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (11, 11, 11, '7/29/2020', '6/7/2024', 3622.66);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (12, 12, 12, '8/16/2015', '8/15/2024', 111.66);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (13, 13, 13, '2/25/2020', '8/9/2021', 442.77);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (14, 14, 14, '10/17/2018', '1/10/2021', 1993.46);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (15, 15, 15, '11/21/2018', '3/25/2023', 2333.7);
+
+delete from Repair;
+
+prompt Inserting Repair
+
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (1, 1, 1, 946.79, '7/9/2017');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (2, 2, 2, 126.49, '4/1/2019');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (3, 3, 3, 849.77, '3/13/2016');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (4, 4, 4, 110.92, '2/28/2015');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (5, 5, 5, 958.23, '9/21/2028');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (6, 6, 6, 804.41, '2/25/2028');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (7, 7, 7, 373.1, '7/9/2029');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (8, 8, 8, 494.38, '10/4/2030');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (9, 9, 9, 732.31, '12/14/2023');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (10, 10, 10, 544.21, '3/24/2023');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (11, 11, 11, 238.0, '8/8/2025');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (12, 12, 12, 239.43, '10/3/2020');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (13, 13, 13, 22.88, '8/14/2017');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (14, 14, 14, 620.21, '6/4/2027');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (15, 15, 15, 577.6, '7/18/2028');
+
+delete from Employee;
+
+prompt Inserting Employee
+
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (1, 60461.19, 'Store Manager', 'Horten', 'Kime');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (2, 69990.98, 'Music Instructor', 'Kacey', 'Dalwood');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (3, 56506.45, 'Sales Associate', 'Gwenny', 'Bomfield');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (4, 34755.79, 'Music Instructor', 'Alphonse', 'Gerdes');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (5, 33121.2, 'Inventory Specialist', 'Ignazio', 'Lambillion');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (6, 61473.47, 'Store Manager', 'Ax', 'Burth');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (7, 30116.43, 'Sales Associate', 'Chelsy', 'Dunford');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (8, 61005.97, 'Customer Service Representative', 'Bordie', 'Tupling');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (9, 64939.21, 'Music Instructor', 'Jareb', 'Edgerly');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (10, 68465.72, 'Inventory Specialist', 'Thebault', 'Matuszewski');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (11, 32607.6, 'Store Manager', 'Myrvyn', 'Kike');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (12, 65745.62, 'Customer Service Representative', 'Mitzi', 'Gullberg');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (13, 60176.91, 'Music Instructor', 'Loren', 'Longbone');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (14, 60501.53, 'Customer Service Representative', 'Bruis', 'Lackington');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (15, 65738.24, 'Customer Service Representative', 'Idelle', 'Gorvin');
+
+delete from Empl_email;
+
+prompt Inserting Empl_email
+
+insert into Empl_email (Empl_id, Empl_email) values (1, 'apeperell0@behance.net');
+insert into Empl_email (Empl_id, Empl_email) values (2, 'faery1@vistaprint.com');
+insert into Empl_email (Empl_id, Empl_email) values (3, 'dkinge2@biglobe.ne.jp');
+insert into Empl_email (Empl_id, Empl_email) values (4, 'ddobrowski3@github.com');
+insert into Empl_email (Empl_id, Empl_email) values (5, 'cglackin4@google.com');
+insert into Empl_email (Empl_id, Empl_email) values (6, 'tbanker5@examiner.com');
+insert into Empl_email (Empl_id, Empl_email) values (7, 'lbilfoot6@mtv.com');
+insert into Empl_email (Empl_id, Empl_email) values (8, 'vjonathon7@narod.ru');
+insert into Empl_email (Empl_id, Empl_email) values (9, 'msrutton8@netscape.com');
+insert into Empl_email (Empl_id, Empl_email) values (10, 'rgagan9@tinypic.com');
+insert into Empl_email (Empl_id, Empl_email) values (11, 'bvautina@columbia.edu');
+insert into Empl_email (Empl_id, Empl_email) values (12, 'slynesb@sciencedaily.com');
+insert into Empl_email (Empl_id, Empl_email) values (13, 'dstaniforthc@unc.edu');
+insert into Empl_email (Empl_id, Empl_email) values (14, 'uhalesd@mac.com');
+insert into Empl_email (Empl_id, Empl_email) values (15, 'sskittlee@t-online.de');
+
+delete from Class;
+
+prompt Inserting Class
+
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (1, 3, 240.16, '12/26/2022', 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (2, 2, 411.0, '12/4/2026', 14);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (3, 1, 428.79, '2/26/2020', 4);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (4, 3, 129.3, '7/9/2026', 1);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (5, 1, 487.4, '9/27/2030', 2);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (6, 3, 145.13, '2/5/2026', 10);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (7, 1, 260.6, '7/22/2029', 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (8, 3, 252.41, '10/28/2028', 8);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (9, 3, 442.4, '4/14/2020', 8);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (10, 1, 412.32, '1/7/2029', 1);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (11, 3, 30.13, '1/21/2020', 11);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (12, 1, 481.27, '1/26/2024', 10);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (13, 3, 493.59, '11/14/2024', 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (14, 1, 178.27, '7/15/2020', 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (15, 1, 266.47, '8/18/2021', 5);
+
+delete from Class_instruments;
+
+prompt Inserting Class_instruments
+
+insert into Class_instruments (Class_id, Inst_id) values (1, 14);
+insert into Class_instruments (Class_id, Inst_id) values (2, 8);
+insert into Class_instruments (Class_id, Inst_id) values (3, 3);
+insert into Class_instruments (Class_id, Inst_id) values (4, 15);
+insert into Class_instruments (Class_id, Inst_id) values (5, 12);
+insert into Class_instruments (Class_id, Inst_id) values (6, 7);
+insert into Class_instruments (Class_id, Inst_id) values (7, 8);
+insert into Class_instruments (Class_id, Inst_id) values (8, 11);
+insert into Class_instruments (Class_id, Inst_id) values (9, 10);
+insert into Class_instruments (Class_id, Inst_id) values (10, 4);
+insert into Class_instruments (Class_id, Inst_id) values (11, 1);
+insert into Class_instruments (Class_id, Inst_id) values (12, 3);
+insert into Class_instruments (Class_id, Inst_id) values (13, 14);
+insert into Class_instruments (Class_id, Inst_id) values (14, 15);
+insert into Class_instruments (Class_id, Inst_id) values (15, 3);
+
+delete from Concert;
+
+prompt Inserting Concert
+
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (1, '8/25/2025', 2.57);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (2, '5/31/2025', null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (3, '12/20/2024', 28.35);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (4, '9/27/2025', 47.44);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (5, '5/4/2025', 33.9);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (6, '8/15/2025', 44.53);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (7, '10/1/2025', null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (8, '5/19/2025', null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (9, '4/19/2025', 5.31);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (10, '5/4/2025', 42.14);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (11, '12/24/2024', null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (12, '8/6/2025', 21.97);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (13, '4/30/2025', 14.6);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (14, '2/22/2025', 16.56);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (15, '1/25/2025', 26.79);
+
+delete from Concert_class_id;
+
+prompt Inserting Concert_class_id
+
+insert into Concert_class_id (Concert_id, Class_id) values (1, 3);
+insert into Concert_class_id (Concert_id, Class_id) values (2, 7);
+insert into Concert_class_id (Concert_id, Class_id) values (3, 15);
+insert into Concert_class_id (Concert_id, Class_id) values (4, 6);
+insert into Concert_class_id (Concert_id, Class_id) values (5, 15);
+insert into Concert_class_id (Concert_id, Class_id) values (6, 14);
+insert into Concert_class_id (Concert_id, Class_id) values (7, 4);
+insert into Concert_class_id (Concert_id, Class_id) values (8, 2);
+insert into Concert_class_id (Concert_id, Class_id) values (9, 4);
+insert into Concert_class_id (Concert_id, Class_id) values (10, 11);
+insert into Concert_class_id (Concert_id, Class_id) values (11, 12);
+insert into Concert_class_id (Concert_id, Class_id) values (12, 9);
+insert into Concert_class_id (Concert_id, Class_id) values (13, 10);
+insert into Concert_class_id (Concert_id, Class_id) values (14, 12);
+insert into Concert_class_id (Concert_id, Class_id) values (15, 8);
