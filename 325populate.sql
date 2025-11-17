@@ -1,3 +1,9 @@
+-- Blake Culbertson, Andrew Gallimore, and Abbi Ochoa
+-- 11/17/25
+
+prompt Blake Culbertson, Andrew Gallimore, Abbi Ochoa
+prompt CS325 - Fall 2025
+
 delete from Supplier;
 
 prompt Inserting Supplier
