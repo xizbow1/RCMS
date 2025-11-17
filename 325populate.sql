@@ -4,6 +4,27 @@
 prompt Blake Culbertson, Andrew Gallimore, Abbi Ochoa
 prompt CS325 - Fall 2025
 
+delete from Part;
+
+prompt Inserting Part
+
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (1, 'cymbals', 15.22, 2, 1);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (2, 'strings', 19.5, 8, 2);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (3, 'valves', 69.86, 9, 3);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (4, 'pegs', 3.32, 10, 4);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (5, 'mouthpiece', 40.12, 0, 5);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (6, 'cymbals', 33.36, 2, 6);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (7, 'drumheads', 72.63, 3, 7);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (8, 'valves', 11.83, 9, 8);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (9, 'drumheads', 4.05, 5, 9);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (10, 'valves', 32.99, 10, 10);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (11, 'valves', 27.64, 8, 11);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (12, 'tuning knobs', 86.17, 0, 12);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (13, 'reeds', 21.7, 1, 13);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (14, 'cymbals', 56.12, 5, 14);
+insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (15, 'drumheads', 39.34, 4, 15);
+
+
 delete from Supplier;
 
 prompt Inserting Supplier
@@ -24,25 +45,45 @@ insert into Supplier (Supplier_id, Supplier_name, Supplier_phone, Supplier_email
 insert into Supplier (Supplier_id, Supplier_name, Supplier_phone, Supplier_email) values (14, 'Ortiz, Emard and Bashirian', '1068252572', 'gjewettd@craigslist.org');
 insert into Supplier (Supplier_id, Supplier_name, Supplier_phone, Supplier_email) values (15, 'Graham-Murazik', '8693187759', 'sstreetleye@apache.org');
 
-delete from Customer;
+delete from Invoice;
 
-prompt Inserting Customer
+prompt Inserting Invoice
 
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (1, 'Phayre', 'Shayne', 70.89);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (2, 'Truder', 'Morganica', 97.98);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (3, 'Downer', 'Ira', 40.89);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (4, 'McChruiter', 'Ezequiel', 93.55);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (5, 'Stillmann', 'Codi', 63.36);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (6, 'Brimblecomb', 'Kirsteni', 44.19);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (7, 'Wigzell', 'Nicol', 12.84);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (8, 'Jeffery', 'Sigismond', 88.04);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (9, 'Everingham', 'Sergent', 79.41);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (10, 'Arcase', 'Cathee', 41.71);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (11, 'Hickeringill', 'Shawn', 40.85);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (12, 'Harwick', 'Claudetta', 96.03);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (13, 'Nisby', 'Jillene', 53.48);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (14, 'Giacobillo', 'Bink', 74.1);
-insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (15, 'Gadsden', 'Mason', 17.28);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (1, '12/17/2024', 1, 97.95);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (2, '11/16/2025', 2, 51.76);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (3, '10/13/2025', 3, 85.96);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (4, '7/25/2025', 4, 75.63);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (5, '4/19/2025', 5, 89.93);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (6, '7/7/2025', 6, 10.45);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (7, '12/28/2024', 7, 60.64);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (8, '10/31/2025', 8, 89.53);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (9, '2/8/2025', 9, 13.34);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (10, '4/3/2025', 10, 24.98);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (11, '3/6/2025', 11, 38.56);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (12, '8/26/2025', 12, 11.65);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (13, '2/7/2025', 13, 27.08);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (14, '10/27/2025', 14, 69.86);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (15, '3/11/2025', null, 50.07);
+
+delete from Concert_class_id;
+
+prompt Inserting Concert_class_id
+
+insert into Concert_class_id (Concert_id, Class_id) values (1, 3);
+insert into Concert_class_id (Concert_id, Class_id) values (2, 7);
+insert into Concert_class_id (Concert_id, Class_id) values (3, 15);
+insert into Concert_class_id (Concert_id, Class_id) values (4, 6);
+insert into Concert_class_id (Concert_id, Class_id) values (5, 15);
+insert into Concert_class_id (Concert_id, Class_id) values (6, 14);
+insert into Concert_class_id (Concert_id, Class_id) values (7, 4);
+insert into Concert_class_id (Concert_id, Class_id) values (8, 2);
+insert into Concert_class_id (Concert_id, Class_id) values (9, 4);
+insert into Concert_class_id (Concert_id, Class_id) values (10, 11);
+insert into Concert_class_id (Concert_id, Class_id) values (11, 12);
+insert into Concert_class_id (Concert_id, Class_id) values (12, 9);
+insert into Concert_class_id (Concert_id, Class_id) values (13, 10);
+insert into Concert_class_id (Concert_id, Class_id) values (14, 12);
+insert into Concert_class_id (Concert_id, Class_id) values (15, 8);
 
 delete from Cust_email;
 
@@ -64,66 +105,6 @@ insert into Cust_email (Cust_id, Cust_email) values (13, 'wloadc@w3.org');
 insert into Cust_email (Cust_id, Cust_email) values (14, 'wdenyukhind@meetup.com');
 insert into Cust_email (Cust_id, Cust_email) values (15, 'ebumpase@engadget.com');
 
-drop table Invoice;
-
-prompt Inserting Invoice
-
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (1, '12/17/2024', 1, 97.95);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (2, '11/16/2025', 2, 51.76);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (3, '10/13/2025', 3, 85.96);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (4, '7/25/2025', 4, 75.63);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (5, '4/19/2025', 5, 89.93);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (6, '7/7/2025', 6, 10.45);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (7, '12/28/2024', 7, 60.64);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (8, '10/31/2025', 8, 89.53);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (9, '2/8/2025', 9, 13.34);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (10, '4/3/2025', 10, 24.98);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (11, '3/6/2025', 11, 38.56);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (12, '8/26/2025', 12, 11.65);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (13, '2/7/2025', 13, 27.08);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (14, '10/27/2025', 14, 69.86);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (15, '3/11/2025', null, 50.07);
-
-delete from Part;
-
-prompt Inserting Part
-
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (1, 'cymbals', 15.22, 2, 1);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (2, 'strings', 19.5, 8, 2);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (3, 'valves', 69.86, 9, 3);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (4, 'pegs', 3.32, 10, 4);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (5, 'mouthpiece', 40.12, 0, 5);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (6, 'cymbals', 33.36, 2, 6);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (7, 'drumheads', 72.63, 3, 7);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (8, 'valves', 11.83, 9, 8);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (9, 'drumheads', 4.05, 5, 9);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (10, 'valves', 32.99, 10, 10);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (11, 'valves', 27.64, 8, 11);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (12, 'tuning knobs', 86.17, 0, 12);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (13, 'reeds', 21.7, 1, 13);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (14, 'cymbals', 56.12, 5, 14);
-insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) values (15, 'drumheads', 39.34, 4, 15);
-
-delete from Instrument;
-
-prompt Inserting Instrument
-
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (1, 'Piano', 'Grand Piano', 0, 98.1, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (2, 'Guitar', 'Electric Guitar', 1, 18.04, 1);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (3, 'Saxophone', 'Alto Saxophone', 1, 62.32, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (4, 'Piano', 'Upright Piano', 0, 87.18, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (5, 'Guitar', 'Acoustic Guitar', 0, 5.18, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (6, 'Saxophone', 'Baritone Saxophone', 0, 30.24, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (7, 'Piano', 'Grand Piano', 0, 97.99, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (8, 'Guitar', 'Electric Guitar', 1, 57.45, 1);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (9, 'Saxophone', 'Alto Saxophone', 1, 23.72, 1);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (10, 'Piano', 'Upright Piano', 1, 25.09, 1);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (11, 'Guitar', 'Acoustic Guitar', 1, 32.62, 1);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (12, 'Saxophone', 'Baritone Saxophone', 0, 15.35, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (13, 'Piano', 'Grand Piano', 1, 29.02, 0);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (14, 'Guitar', 'Electric Guitar', 0, 79.25, 1);
-insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (15, 'Saxophone', 'Alto Saxophone', 1, 32.78, 0);
-
 delete from Rental;
 
 prompt Inserting Rental
@@ -143,6 +124,9 @@ insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Renta
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (13, 13, 13, '2/25/2020', '8/9/2021', 442.77);
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (14, 14, 14, '10/17/2018', '1/10/2021', 1993.46);
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (15, 15, 15, '11/21/2018', '3/25/2023', 2333.7);
+
+
+
 
 delete from Repair;
 
@@ -164,25 +148,25 @@ insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) 
 insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (14, 14, 14, 620.21, '6/4/2027');
 insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (15, 15, 15, 577.6, '7/18/2028');
 
-delete from Employee;
+delete from Instrument;
 
-prompt Inserting Employee
+prompt Inserting Instrument
 
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (1, 60461.19, 'Store Manager', 'Horten', 'Kime');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (2, 69990.98, 'Music Instructor', 'Kacey', 'Dalwood');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (3, 56506.45, 'Sales Associate', 'Gwenny', 'Bomfield');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (4, 34755.79, 'Music Instructor', 'Alphonse', 'Gerdes');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (5, 33121.2, 'Inventory Specialist', 'Ignazio', 'Lambillion');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (6, 61473.47, 'Store Manager', 'Ax', 'Burth');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (7, 30116.43, 'Sales Associate', 'Chelsy', 'Dunford');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (8, 61005.97, 'Customer Service Representative', 'Bordie', 'Tupling');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (9, 64939.21, 'Music Instructor', 'Jareb', 'Edgerly');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (10, 68465.72, 'Inventory Specialist', 'Thebault', 'Matuszewski');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (11, 32607.6, 'Store Manager', 'Myrvyn', 'Kike');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (12, 65745.62, 'Customer Service Representative', 'Mitzi', 'Gullberg');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (13, 60176.91, 'Music Instructor', 'Loren', 'Longbone');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (14, 60501.53, 'Customer Service Representative', 'Bruis', 'Lackington');
-insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (15, 65738.24, 'Customer Service Representative', 'Idelle', 'Gorvin');
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (1, 'Piano', 'Grand Piano', 0, 98.1, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (2, 'Guitar', 'Electric Guitar', 1, 18.04, 1);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (3, 'Saxophone', 'Alto Saxophone', 1, 62.32, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (4, 'Piano', 'Upright Piano', 0, 87.18, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (5, 'Guitar', 'Acoustic Guitar', 0, 5.18, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (6, 'Saxophone', 'Baritone Saxophone', 0, 30.24, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (7, 'Piano', 'Grand Piano', 0, 97.99, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (8, 'Guitar', 'Electric Guitar', 1, 57.45, 1);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (9, 'Saxophone', 'Alto Saxophone', 1, 23.72, 1);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (10, 'Piano', 'Upright Piano', 1, 25.09, 1);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (11, 'Guitar', 'Acoustic Guitar', 1, 32.62, 1);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (12, 'Saxophone', 'Baritone Saxophone', 0, 15.35, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (13, 'Piano', 'Grand Piano', 1, 29.02, 0);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (14, 'Guitar', 'Electric Guitar', 0, 79.25, 1);
+insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, Inst_price, Inst_isRented) values (15, 'Saxophone', 'Alto Saxophone', 1, 32.78, 0);
 
 delete from Empl_email;
 
@@ -204,6 +188,26 @@ insert into Empl_email (Empl_id, Empl_email) values (13, 'dstaniforthc@unc.edu')
 insert into Empl_email (Empl_id, Empl_email) values (14, 'uhalesd@mac.com');
 insert into Empl_email (Empl_id, Empl_email) values (15, 'sskittlee@t-online.de');
 
+delete from Class_instruments;
+
+prompt Inserting Class_instruments
+
+insert into Class_instruments (Class_id, Inst_id) values (1, 14);
+insert into Class_instruments (Class_id, Inst_id) values (2, 8);
+insert into Class_instruments (Class_id, Inst_id) values (3, 3);
+insert into Class_instruments (Class_id, Inst_id) values (4, 15);
+insert into Class_instruments (Class_id, Inst_id) values (5, 12);
+insert into Class_instruments (Class_id, Inst_id) values (6, 7);
+insert into Class_instruments (Class_id, Inst_id) values (7, 8);
+insert into Class_instruments (Class_id, Inst_id) values (8, 11);
+insert into Class_instruments (Class_id, Inst_id) values (9, 10);
+insert into Class_instruments (Class_id, Inst_id) values (10, 4);
+insert into Class_instruments (Class_id, Inst_id) values (11, 1);
+insert into Class_instruments (Class_id, Inst_id) values (12, 3);
+insert into Class_instruments (Class_id, Inst_id) values (13, 14);
+insert into Class_instruments (Class_id, Inst_id) values (14, 15);
+insert into Class_instruments (Class_id, Inst_id) values (15, 3);
+
 delete from Class;
 
 prompt Inserting Class
@@ -224,25 +228,26 @@ insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) v
 insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (14, 1, 178.27, '7/15/2020', 5);
 insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (15, 1, 266.47, '8/18/2021', 5);
 
-delete from Class_instruments;
 
-prompt Inserting Class_instruments
+delete from Employee;
 
-insert into Class_instruments (Class_id, Inst_id) values (1, 14);
-insert into Class_instruments (Class_id, Inst_id) values (2, 8);
-insert into Class_instruments (Class_id, Inst_id) values (3, 3);
-insert into Class_instruments (Class_id, Inst_id) values (4, 15);
-insert into Class_instruments (Class_id, Inst_id) values (5, 12);
-insert into Class_instruments (Class_id, Inst_id) values (6, 7);
-insert into Class_instruments (Class_id, Inst_id) values (7, 8);
-insert into Class_instruments (Class_id, Inst_id) values (8, 11);
-insert into Class_instruments (Class_id, Inst_id) values (9, 10);
-insert into Class_instruments (Class_id, Inst_id) values (10, 4);
-insert into Class_instruments (Class_id, Inst_id) values (11, 1);
-insert into Class_instruments (Class_id, Inst_id) values (12, 3);
-insert into Class_instruments (Class_id, Inst_id) values (13, 14);
-insert into Class_instruments (Class_id, Inst_id) values (14, 15);
-insert into Class_instruments (Class_id, Inst_id) values (15, 3);
+prompt Inserting Employee
+
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (1, 60461.19, 'Store Manager', 'Horten', 'Kime');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (2, 69990.98, 'Music Instructor', 'Kacey', 'Dalwood');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (3, 56506.45, 'Sales Associate', 'Gwenny', 'Bomfield');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (4, 34755.79, 'Music Instructor', 'Alphonse', 'Gerdes');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (5, 33121.2, 'Inventory Specialist', 'Ignazio', 'Lambillion');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (6, 61473.47, 'Store Manager', 'Ax', 'Burth');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (7, 30116.43, 'Sales Associate', 'Chelsy', 'Dunford');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (8, 61005.97, 'Customer Service Representative', 'Bordie', 'Tupling');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (9, 64939.21, 'Music Instructor', 'Jareb', 'Edgerly');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (10, 68465.72, 'Inventory Specialist', 'Thebault', 'Matuszewski');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (11, 32607.6, 'Store Manager', 'Myrvyn', 'Kike');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (12, 65745.62, 'Customer Service Representative', 'Mitzi', 'Gullberg');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (13, 60176.91, 'Music Instructor', 'Loren', 'Longbone');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (14, 60501.53, 'Customer Service Representative', 'Bruis', 'Lackington');
+insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname) values (15, 65738.24, 'Customer Service Representative', 'Idelle', 'Gorvin');
 
 delete from Concert;
 
@@ -264,22 +269,22 @@ insert into Concert (Concert_id, Concert_date, Concert_cost) values (13, '4/30/2
 insert into Concert (Concert_id, Concert_date, Concert_cost) values (14, '2/22/2025', 16.56);
 insert into Concert (Concert_id, Concert_date, Concert_cost) values (15, '1/25/2025', 26.79);
 
-delete from Concert_class_id;
+delete from Customer;
 
-prompt Inserting Concert_class_id
+prompt Inserting Customer
 
-insert into Concert_class_id (Concert_id, Class_id) values (1, 3);
-insert into Concert_class_id (Concert_id, Class_id) values (2, 7);
-insert into Concert_class_id (Concert_id, Class_id) values (3, 15);
-insert into Concert_class_id (Concert_id, Class_id) values (4, 6);
-insert into Concert_class_id (Concert_id, Class_id) values (5, 15);
-insert into Concert_class_id (Concert_id, Class_id) values (6, 14);
-insert into Concert_class_id (Concert_id, Class_id) values (7, 4);
-insert into Concert_class_id (Concert_id, Class_id) values (8, 2);
-insert into Concert_class_id (Concert_id, Class_id) values (9, 4);
-insert into Concert_class_id (Concert_id, Class_id) values (10, 11);
-insert into Concert_class_id (Concert_id, Class_id) values (11, 12);
-insert into Concert_class_id (Concert_id, Class_id) values (12, 9);
-insert into Concert_class_id (Concert_id, Class_id) values (13, 10);
-insert into Concert_class_id (Concert_id, Class_id) values (14, 12);
-insert into Concert_class_id (Concert_id, Class_id) values (15, 8);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (1, 'Phayre', 'Shayne', 70.89);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (2, 'Truder', 'Morganica', 97.98);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (3, 'Downer', 'Ira', 40.89);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (4, 'McChruiter', 'Ezequiel', 93.55);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (5, 'Stillmann', 'Codi', 63.36);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (6, 'Brimblecomb', 'Kirsteni', 44.19);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (7, 'Wigzell', 'Nicol', 12.84);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (8, 'Jeffery', 'Sigismond', 88.04);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (9, 'Everingham', 'Sergent', 79.41);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (10, 'Arcase', 'Cathee', 41.71);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (11, 'Hickeringill', 'Shawn', 40.85);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (12, 'Harwick', 'Claudetta', 96.03);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (13, 'Nisby', 'Jillene', 53.48);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (14, 'Giacobillo', 'Bink', 74.1);
+insert into Customer (Cust_id, Cust_lname, Cust_fname, Cust_creditbal) values (15, 'Gadsden', 'Mason', 17.28);
