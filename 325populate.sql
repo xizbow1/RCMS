@@ -1,6 +1,8 @@
 prompt Blake Culbertson, Andrew Gallimore, Abbi Ochoa
 prompt CS325 - Fall 2025
 
+set feedback off
+
 prompt Deleting data
 
 delete from Concert_class_id;
@@ -94,39 +96,39 @@ insert into Instrument (Inst_id, Inst_supertype, Inst_subtype, Inst_isRentable, 
 
 prompt Inserting Concert
 
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (1, '8/25/2025', 2.57);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (2, '5/31/2025', null);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (3, '12/20/2024', 28.35);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (4, '9/27/2025', 47.44);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (5, '5/4/2025', 33.9);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (6, '8/15/2025', 44.53);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (7, '10/1/2025', null);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (8, '5/19/2025', null);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (9, '4/19/2025', 5.31);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (10, '5/4/2025', 42.14);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (11, '12/24/2024', null);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (12, '8/6/2025', 21.97);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (13, '4/30/2025', 14.6);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (14, '2/22/2025', 16.56);
-insert into Concert (Concert_id, Concert_date, Concert_cost) values (15, '1/25/2025', 26.79);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (1, TO_DATE('08/25/2025','MM/DD/YYYY'), 2.57);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (2, TO_DATE('05/31/2025','MM/DD/YYYY'), null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (3, TO_DATE('12/20/2024','MM/DD/YYYY'), 28.35);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (4, TO_DATE('09/27/2025','MM/DD/YYYY'), 47.44);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (5, TO_DATE('05/04/2025','MM/DD/YYYY'), 33.9);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (6, TO_DATE('08/15/2025','MM/DD/YYYY'), 44.53);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (7, TO_DATE('10/01/2025','MM/DD/YYYY'), null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (8, TO_DATE('05/19/2025','MM/DD/YYYY'), null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (9, TO_DATE('04/19/2025','MM/DD/YYYY'), 5.31);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (10, TO_DATE('05/04/2025','MM/DD/YYYY'), 42.14);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (11, TO_DATE('12/24/2024','MM/DD/YYYY'), null);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (12, TO_DATE('08/06/2025','MM/DD/YYYY'), 21.97);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (13, TO_DATE('04/30/2025','MM/DD/YYYY'), 14.6);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (14, TO_DATE('02/22/2025','MM/DD/YYYY'), 16.56);
+insert into Concert (Concert_id, Concert_date, Concert_cost) values (15, TO_DATE('01/25/2025','MM/DD/YYYY'), 26.79);
 
 prompt Inserting Class
 
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (1, 3, 240.16, '12/26/2022', 5);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (2, 2, 411.0, '12/4/2026', 14);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (3, 1, 428.79, '2/26/2020', 4);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (4, 3, 129.3, '7/9/2026', 1);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (5, 1, 487.4, '9/27/2030', 2);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (6, 3, 145.13, '2/5/2026', 10);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (7, 1, 260.6, '7/22/2029', 5);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (8, 3, 252.41, '10/28/2028', 8);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (9, 3, 442.4, '4/14/2020', 8);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (10, 1, 412.32, '1/7/2029', 1);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (11, 3, 30.13, '1/21/2020', 11);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (12, 1, 481.27, '1/26/2024', 10);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (13, 3, 493.59, '11/14/2024', 5);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (14, 1, 178.27, '7/15/2020', 5);
-insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (15, 1, 266.47, '8/18/2021', 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (1, 3, 240.16, TO_DATE('12/26/2022','MM/DD/YYYY'), 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (2, 2, 411.0, TO_DATE('12/04/2026','MM/DD/YYYY'), 14);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (3, 1, 428.79, TO_DATE('02/26/2020','MM/DD/YYYY'), 4);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (4, 3, 129.3, TO_DATE('07/09/2026','MM/DD/YYYY'), 1);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (5, 1, 487.4, TO_DATE('09/27/2030','MM/DD/YYYY'), 2);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (6, 3, 145.13, TO_DATE('02/05/2026','MM/DD/YYYY'), 10);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (7, 1, 260.6, TO_DATE('07/22/2029','MM/DD/YYYY'), 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (8, 3, 252.41, TO_DATE('10/28/2028','MM/DD/YYYY'), 8);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (9, 3, 442.4, TO_DATE('04/14/2020','MM/DD/YYYY'), 8);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (10, 1, 412.32, TO_DATE('01/07/2029','MM/DD/YYYY'), 1);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (11, 3, 30.13, TO_DATE('01/21/2020','MM/DD/YYYY'), 11);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (12, 1, 481.27, TO_DATE('01/26/2024','MM/DD/YYYY'), 10);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (13, 3, 493.59, TO_DATE('11/14/2024','MM/DD/YYYY'), 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (14, 1, 178.27, TO_DATE('07/15/2020','MM/DD/YYYY'), 5);
+insert into Class (Class_id, Class_level, Class_cost, Class_schedule, Empl_id) values (15, 1, 266.47, TO_DATE('08/18/2021','MM/DD/YYYY'), 5);
 
 prompt Inserting Empl_email
 
@@ -220,54 +222,54 @@ insert into Part (Part_id, Part_type, Part_price, Part_stock, Supplier_id) value
 
 prompt Inserting Invoice
 
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (1, '12/17/2024', 1, 97.95);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (2, '11/16/2025', 2, 51.76);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (3, '10/13/2025', 3, 85.96);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (4, '7/25/2025', 4, 75.63);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (5, '4/19/2025', 5, 89.93);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (6, '7/7/2025', 6, 10.45);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (7, '12/28/2024', 7, 60.64);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (8, '10/31/2025', 8, 89.53);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (9, '2/8/2025', 9, 13.34);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (10, '4/3/2025', 10, 24.98);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (11, '3/6/2025', 11, 38.56);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (12, '8/26/2025', 12, 11.65);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (13, '2/7/2025', 13, 27.08);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (14, '10/27/2025', 14, 69.86);
-insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (15, '3/11/2025', null, 50.07);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (1, TO_DATE('12/17/2024','MM/DD/YYYY'), 1, 97.95);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (2, TO_DATE('11/16/2025','MM/DD/YYYY'), 2, 51.76);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (3, TO_DATE('10/13/2025','MM/DD/YYYY'), 3, 85.96);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (4, TO_DATE('07/25/2025','MM/DD/YYYY'), 4, 75.63);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (5, TO_DATE('04/19/2025','MM/DD/YYYY'), 5, 89.93);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (6, TO_DATE('07/07/2025','MM/DD/YYYY'), 6, 10.45);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (7, TO_DATE('12/28/2024','MM/DD/YYYY'), 7, 60.64);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (8, TO_DATE('10/31/2025','MM/DD/YYYY'), 8, 89.53);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (9, TO_DATE('02/08/2025','MM/DD/YYYY'), 9, 13.34);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (10, TO_DATE('04/03/2025','MM/DD/YYYY'), 10, 24.98);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (11, TO_DATE('03/06/2025','MM/DD/YYYY'), 11, 38.56);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (12, TO_DATE('08/26/2025','MM/DD/YYYY'), 12, 11.65);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (13, TO_DATE('02/07/2025','MM/DD/YYYY'), 13, 27.08);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (14, TO_DATE('10/27/2025','MM/DD/YYYY'), 14, 69.86);
+insert into Invoice (Invoice_id, Invoice_date, Cust_id, Invoice_total) values (15, TO_DATE('03/11/2025','MM/DD/YYYY'), null, 50.07);
 
 prompt Inserting Rental
 
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (1, 1, 1, '12/12/2016', '11/22/2023', 1691.44);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (2, 2, 2, '12/5/2018', '9/2/2025', 4969.19);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (3, 3, 3, '5/20/2018', '10/31/2024', 2080.39);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (4, 4, 4, '12/11/2020', '4/15/2023', 1859.24);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (5, 5, 5, '7/21/2020', '8/9/2021', 3269.16);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (6, 6, 6, '11/13/2019', '12/11/2023', 4852.78);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (7, 7, 7, '5/21/2019', '6/6/2025', 4134.26);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (8, 8, 8, '1/21/2020', '11/30/2024', 2894.93);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (9, 9, 9, '2/23/2019', '6/21/2021', 979.4);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (10, 10, 10, '11/22/2015', '10/14/2021', 1640.15);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (11, 11, 11, '7/29/2020', '6/7/2024', 3622.66);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (12, 12, 12, '8/16/2015', '8/15/2024', 111.66);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (13, 13, 13, '2/25/2020', '8/9/2021', 442.77);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (14, 14, 14, '10/17/2018', '1/10/2021', 1993.46);
-insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (15, 15, 15, '11/21/2018', '3/25/2023', 2333.7);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (1, 1, 1, TO_DATE('12/12/2016','MM/DD/YYYY'), TO_DATE('11/22/2023','MM/DD/YYYY'), 1691.44);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (2, 2, 2, TO_DATE('12/05/2018','MM/DD/YYYY'), TO_DATE('09/02/2025','MM/DD/YYYY'), 4969.19);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (3, 3, 3, TO_DATE('05/20/2018','MM/DD/YYYY'), TO_DATE('10/31/2024','MM/DD/YYYY'), 2080.39);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (4, 4, 4, TO_DATE('12/11/2020','MM/DD/YYYY'), TO_DATE('04/15/2023','MM/DD/YYYY'), 1859.24);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (5, 5, 5, TO_DATE('07/21/2020','MM/DD/YYYY'), TO_DATE('08/09/2021','MM/DD/YYYY'), 3269.16);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (6, 6, 6, TO_DATE('11/13/2019','MM/DD/YYYY'), TO_DATE('12/11/2023','MM/DD/YYYY'), 4852.78);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (7, 7, 7, TO_DATE('05/21/2019','MM/DD/YYYY'), TO_DATE('06/06/2025','MM/DD/YYYY'), 4134.26);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (8, 8, 8, TO_DATE('01/21/2020','MM/DD/YYYY'), TO_DATE('11/30/2024','MM/DD/YYYY'), 2894.93);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (9, 9, 9, TO_DATE('02/23/2019','MM/DD/YYYY'), TO_DATE('06/21/2021','MM/DD/YYYY'), 979.4);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (10, 10, 10, TO_DATE('11/22/2015','MM/DD/YYYY'), TO_DATE('10/14/2021','MM/DD/YYYY'), 1640.15);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (11, 11, 11, TO_DATE('07/29/2020','MM/DD/YYYY'), TO_DATE('06/07/2024','MM/DD/YYYY'), 3622.66);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (12, 12, 12, TO_DATE('08/16/2015','MM/DD/YYYY'), TO_DATE('08/15/2024','MM/DD/YYYY'), 111.66);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (13, 13, 13, TO_DATE('02/25/2020','MM/DD/YYYY'), TO_DATE('08/09/2021','MM/DD/YYYY'), 442.77);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (14, 14, 14, TO_DATE('10/17/2018','MM/DD/YYYY'), TO_DATE('01/10/2021','MM/DD/YYYY'), 1993.46);
+insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost) values (15, 15, 15, TO_DATE('11/21/2018','MM/DD/YYYY'), TO_DATE('03/25/2023','MM/DD/YYYY'), 2333.7);
 
 prompt Inserting Repair
 
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (1, 1, 1, 946.79, '7/9/2017');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (2, 2, 2, 126.49, '4/1/2019');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (3, 3, 3, 849.77, '3/13/2016');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (4, 4, 4, 110.92, '2/28/2015');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (5, 5, 5, 958.23, '9/21/2028');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (6, 6, 6, 804.41, '2/25/2028');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (7, 7, 7, 373.1, '7/9/2029');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (8, 8, 8, 494.38, '10/4/2030');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (9, 9, 9, 732.31, '12/14/2023');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (10, 10, 10, 544.21, '3/24/2023');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (11, 11, 11, 238.0, '8/8/2025');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (12, 12, 12, 239.43, '10/3/2020');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (13, 13, 13, 22.88, '8/14/2017');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (14, 14, 14, 620.21, '6/4/2027');
-insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (15, 15, 15, 577.6, '7/18/2028');
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (1, 1, 1, 946.79, TO_DATE('07/09/2017','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (2, 2, 2, 126.49, TO_DATE('04/01/2019','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (3, 3, 3, 849.77, TO_DATE('03/13/2016','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (4, 4, 4, 110.92, TO_DATE('02/28/2015','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (5, 5, 5, 958.23, TO_DATE('09/21/2028','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (6, 6, 6, 804.41, TO_DATE('02/25/2028','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (7, 7, 7, 373.1, TO_DATE('07/09/2029','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (8, 8, 8, 494.38, TO_DATE('10/04/2030','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (9, 9, 9, 732.31, TO_DATE('12/14/2023','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (10, 10, 10, 544.21, TO_DATE('03/24/2023','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (11, 11, 11, 238.0, TO_DATE('08/08/2025','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (12, 12, 12, 239.43, TO_DATE('10/03/2020','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (13, 13, 13, 22.88, TO_DATE('08/14/2017','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (14, 14, 14, 620.21, TO_DATE('06/04/2027','MM/DD/YYYY'));
+insert into Repair (Repair_id, Cust_id, Inst_id, Repair_cost, Repair_date_read) values (15, 15, 15, 577.6, TO_DATE('07/18/2028','MM/DD/YYYY'));

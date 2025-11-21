@@ -2,6 +2,8 @@
 -- CS325 - Fall 2025
 -- 11/3/25
 
+set feedback off
+
 -- Table to hold a supplier. Supplier phone and email can be null because there may be other contact methods.
 drop table Supplier cascade constraints;
 create table Supplier (
@@ -91,7 +93,7 @@ drop table Employee cascade constraints;
 create table Employee (
     Empl_id int primary key,
     Empl_salary decimal(10, 2) not null,
-    Empl_job_title varchar2(20),
+    Empl_job_title varchar2(40),
     Empl_fname varchar2(30) not null,
     Empl_lname varchar2(30) not null
 );
