@@ -1,8 +1,6 @@
 prompt Blake Culbertson, Andrew Gallimore, Abbi Ochoa
 prompt CS325 - Fall 2025
 
-set feedback off
-
 prompt Deleting data
 
 delete from Concert_class_id;
