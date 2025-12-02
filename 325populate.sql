@@ -49,7 +49,7 @@ insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lna
 values (7, 30116.43, 'Sales Associate', 'Chelsy', 'Dunford');
 
 insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
-values (8, 61005.97, 'Customer Service Representative', 'Bordie', 'Tupling');
+values (8, 61005.97, 'Customer Service Rep', 'Bordie', 'Tupling');
 
 insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
 values (9, 64939.21, 'Music Instructor', 'Jareb', 'Edgerly');
@@ -61,16 +61,16 @@ insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lna
 values (11, 32607.6, 'Store Manager', 'Myrvyn', 'Kike');
 
 insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
-values (12, 65745.62, 'Customer Service Representative', 'Mitzi', 'Gullberg');
+values (12, 65745.62, 'Customer Service Rep', 'Mitzi', 'Gullberg');
 
 insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
 values (13, 60176.91, 'Music Instructor', 'Loren', 'Longbone');
 
 insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
-values (14, 60501.53, 'Customer Service Representative', 'Bruis', 'Lackington');
+values (14, 60501.53, 'Customer Service Rep', 'Bruis', 'Lackington');
 
 insert into Employee (Empl_id, Empl_salary, Empl_job_title, Empl_fname, Empl_lname)
-values (15, 65738.24, 'Customer Service Representative', 'Idelle', 'Gorvin');
+values (15, 65738.24, 'Customer Service Rep', 'Idelle', 'Gorvin');
 
 
 prompt

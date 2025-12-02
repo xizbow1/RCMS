@@ -2,23 +2,26 @@
 
 Employee Table:
 
-   EMPL_ID EMPL_SALARY EMPL_JOB_TITLE                           EMPL_FNAME      EMPL_LNAME                                                                                                              
----------- ----------- ---------------------------------------- --------------- ---------------                                                                                                         
-         1    60461.19 Store Manager                            Horten          Kime                                                                                                                    
-         2    69990.98 Music Instructor                         Kacey           Dalwood                                                                                                                 
-         3    56506.45 Sales Associate                          Gwenny          Bomfield                                                                                                                
-         4    34755.79 Music Instructor                         Alphonse        Gerdes                                                                                                                  
-         5     33121.2 Inventory Specialist                     Ignazio         Lambillion                                                                                                              
-         6    61473.47 Store Manager                            Ax              Burth                                                                                                                   
-         7    30116.43 Sales Associate                          Chelsy          Dunford                                                                                                                 
-         8    61005.97 Customer Service Representative          Bordie          Tupling                                                                                                                 
-         9    64939.21 Music Instructor                         Jareb           Edgerly                                                                                                                 
-        10    68465.72 Inventory Specialist                     Thebault        Matuszewski                                                                                                             
-        11     32607.6 Store Manager                            Myrvyn          Kike                                                                                                                    
-        12    65745.62 Customer Service Representative          Mitzi           Gullberg                                                                                                                
-        13    60176.91 Music Instructor                         Loren           Longbone                                                                                                                
-        14    60501.53 Customer Service Representative          Bruis           Lackington                                                                                                              
-        15    65738.24 Customer Service Representative          Idelle          Gorvin                                                                                                                  
+   EMPL_ID EMPL_SALARY EMPL_JOB_TITLE            EMPL_FNAME      EMPL_LNAME                                                                                                                             
+---------- ----------- ------------------------- --------------- ---------------                                                                                                                        
+         1    60461.19 Store Manager             Horten          Kime                                                                                                                                   
+         2    69990.98 Music Instructor          Kacey           Dalwood                                                                                                                                
+         3    56506.45 Sales Associate           Gwenny          Bomfield                                                                                                                               
+         4    34755.79 Music Instructor          Alphonse        Gerdes                                                                                                                                 
+         5     33121.2 Inventory Specialist      Ignazio         Lambillion                                                                                                                             
+         6    61473.47 Store Manager             Ax              Burth                                                                                                                                  
+         7    30116.43 Sales Associate           Chelsy          Dunford                                                                                                                                
+         8    61005.97 Customer Service Rep      Bordie          Tupling                                                                                                                                
+         9    64939.21 Music Instructor          Jareb           Edgerly                                                                                                                                
+        10    68465.72 Inventory Specialist      Thebault        Matuszewski                                                                                                                            
+        11     32607.6 Store Manager             Myrvyn          Kike                                                                                                                                   
+        12    65745.62 Customer Service Rep      Mitzi           Gullberg                                                                                                                               
+        13    60176.91 Music Instructor          Loren           Longbone                                                                                                                               
+        14    60501.53 Customer Service Rep      Bruis           Lackington                                                                                                                             
+        15    65738.24 Customer Service Rep      Idelle          Gorvin                                                                                                                                 
+
+15 rows selected.
+
 
 
 Empl_email Table:
@@ -41,11 +44,14 @@ Empl_email Table:
         14 uhalesd@mac.com                                                                                                                                                                              
         15 sskittlee@t-online.de                                                                                                                                                                        
 
+15 rows selected.
+
+
 
 Supplier Table:
 
 SUPPLIER_ID SUPPLIER_NAME                  SUPPLIER_P SUPPLIER_EMAIL                                                                                                                                    
------------ ------------------------------ ---------- --------------------------------------------------                                                                                                
+----------- ------------------------------ ---------- ------------------------------                                                                                                                    
           1 Hermann, Kris and McLaughlin   8486758219 vattarge0@howstuffworks.com                                                                                                                       
           2 Bernhard, Wisozk and Dare      5907755368 iferrierio1@blogspot.com                                                                                                                          
           3 Bode, Kris and Corwin          9165100158 daspole2@abc.net.au                                                                                                                               
@@ -61,6 +67,9 @@ SUPPLIER_ID SUPPLIER_NAME                  SUPPLIER_P SUPPLIER_EMAIL
          13 Renner-MacGyver                1419021716 nslimmingc@dailymail.co.uk                                                                                                                        
          14 Ortiz, Emard and Bashirian     1068252572 gjewettd@craigslist.org                                                                                                                           
          15 Graham-Murazik                 8693187759 sstreetleye@apache.org                                                                                                                            
+
+15 rows selected.
+
 
 
 Customer Table:
@@ -83,6 +92,9 @@ Customer Table:
         14 Giacobillo      Bink                      74.1                                                                                                                                               
         15 Gadsden         Mason                    17.28                                                                                                                                               
 
+15 rows selected.
+
+
 
 Cust_email Table:
 
@@ -103,6 +115,9 @@ Cust_email Table:
         13 wloadc@w3.org                                                                                                                                                                                
         14 wdenyukhind@meetup.com                                                                                                                                                                       
         15 ebumpase@engadget.com                                                                                                                                                                        
+
+15 rows selected.
+
 
 
 Instrument Table:
@@ -125,6 +140,9 @@ Instrument Table:
         14 Guitar               Electric Guitar      0      79.25 1                                                                                                                                     
         15 Saxophone            Alto Saxophone       1      32.78 0                                                                                                                                     
 
+15 rows selected.
+
+
 
 Concert Table:
 
@@ -145,6 +163,9 @@ CONCERT_ID CONCERT_D CONCERT_COST
         13 30-APR-25           15                                                                                                                                                                       
         14 22-FEB-25           17                                                                                                                                                                       
         15 25-JAN-25           27                                                                                                                                                                       
+
+15 rows selected.
+
 
 
 Class Table:
@@ -167,6 +188,9 @@ Class Table:
         14 1     178.27 15-JUL-20          5                                                                                                                                                            
         15 1     266.47 18-AUG-21          5                                                                                                                                                            
 
+15 rows selected.
+
+
 
 Class_instruments Table:
 
@@ -187,6 +211,9 @@ Class_instruments Table:
         13         14                                                                                                                                                                                   
         14         15                                                                                                                                                                                   
         15          3                                                                                                                                                                                   
+
+15 rows selected.
+
 
 
 Concert_class_id Table:
@@ -209,6 +236,9 @@ CONCERT_ID   CLASS_ID
         14         12                                                                                                                                                                                   
         15          8                                                                                                                                                                                   
 
+15 rows selected.
+
+
 
 Part Table:
 
@@ -229,6 +259,9 @@ Part Table:
         13 reeds                 21.7          1          13                                                                                                                                            
         14 cymbals              56.12          5          14                                                                                                                                            
         15 drumheads            39.34          4          15                                                                                                                                            
+
+15 rows selected.
+
 
 
 Invoice Table:
@@ -251,6 +284,9 @@ INVOICE_ID INVOICE_D    CUST_ID INVOICE_TOTAL
         14 27-OCT-25         14         69.86                                                                                                                                                           
         15 11-MAR-25                    50.07                                                                                                                                                           
 
+15 rows selected.
+
+
 
 Rental Table:
 
@@ -272,6 +308,9 @@ Rental Table:
         14         14         14 17-OCT-18 10-JAN-21     1993.46                                                                                                                                        
         15         15         15 21-NOV-18 25-MAR-23      2333.7                                                                                                                                        
 
+15 rows selected.
+
+
 
 Repair Table:
 
@@ -292,4 +331,7 @@ Repair Table:
         13         13         13       22.88 14-AUG-17                                                                                                                                                  
         14         14         14      620.21 04-JUN-27                                                                                                                                                  
         15         15         15       577.6 18-JUL-28                                                                                                                                                  
+
+15 rows selected.
+
 
