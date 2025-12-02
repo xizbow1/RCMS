@@ -1,0 +1,295 @@
+
+
+Employee Table:
+
+   EMPL_ID EMPL_SALARY EMPL_JOB_TITLE                           EMPL_FNAME      EMPL_LNAME                                                                                                              
+---------- ----------- ---------------------------------------- --------------- ---------------                                                                                                         
+         1    60461.19 Store Manager                            Horten          Kime                                                                                                                    
+         2    69990.98 Music Instructor                         Kacey           Dalwood                                                                                                                 
+         3    56506.45 Sales Associate                          Gwenny          Bomfield                                                                                                                
+         4    34755.79 Music Instructor                         Alphonse        Gerdes                                                                                                                  
+         5     33121.2 Inventory Specialist                     Ignazio         Lambillion                                                                                                              
+         6    61473.47 Store Manager                            Ax              Burth                                                                                                                   
+         7    30116.43 Sales Associate                          Chelsy          Dunford                                                                                                                 
+         8    61005.97 Customer Service Representative          Bordie          Tupling                                                                                                                 
+         9    64939.21 Music Instructor                         Jareb           Edgerly                                                                                                                 
+        10    68465.72 Inventory Specialist                     Thebault        Matuszewski                                                                                                             
+        11     32607.6 Store Manager                            Myrvyn          Kike                                                                                                                    
+        12    65745.62 Customer Service Representative          Mitzi           Gullberg                                                                                                                
+        13    60176.91 Music Instructor                         Loren           Longbone                                                                                                                
+        14    60501.53 Customer Service Representative          Bruis           Lackington                                                                                                              
+        15    65738.24 Customer Service Representative          Idelle          Gorvin                                                                                                                  
+
+
+Empl_email Table:
+
+   EMPL_ID EMPL_EMAIL                                                                                                                                                                                   
+---------- --------------------------------------------------                                                                                                                                           
+         1 apeperell0@behance.net                                                                                                                                                                       
+         2 faery1@vistaprint.com                                                                                                                                                                        
+         3 dkinge2@biglobe.ne.jp                                                                                                                                                                        
+         4 ddobrowski3@github.com                                                                                                                                                                       
+         5 cglackin4@google.com                                                                                                                                                                         
+         6 tbanker5@examiner.com                                                                                                                                                                        
+         7 lbilfoot6@mtv.com                                                                                                                                                                            
+         8 vjonathon7@narod.ru                                                                                                                                                                          
+         9 msrutton8@netscape.com                                                                                                                                                                       
+        10 rgagan9@tinypic.com                                                                                                                                                                          
+        11 bvautina@columbia.edu                                                                                                                                                                        
+        12 slynesb@sciencedaily.com                                                                                                                                                                     
+        13 dstaniforthc@unc.edu                                                                                                                                                                         
+        14 uhalesd@mac.com                                                                                                                                                                              
+        15 sskittlee@t-online.de                                                                                                                                                                        
+
+
+Supplier Table:
+
+SUPPLIER_ID SUPPLIER_NAME                  SUPPLIER_P SUPPLIER_EMAIL                                                                                                                                    
+----------- ------------------------------ ---------- --------------------------------------------------                                                                                                
+          1 Hermann, Kris and McLaughlin   8486758219 vattarge0@howstuffworks.com                                                                                                                       
+          2 Bernhard, Wisozk and Dare      5907755368 iferrierio1@blogspot.com                                                                                                                          
+          3 Bode, Kris and Corwin          9165100158 daspole2@abc.net.au                                                                                                                               
+          4 Hilpert, Hauck and Bogisich    2305400799 dpykett3@tumblr.com                                                                                                                               
+          5 Dach Inc                       3888426243 echaves4@youku.com                                                                                                                                
+          6 Thompson, O'Hara and Prohaska  6608240820 laimson5@so-net.ne.jp                                                                                                                             
+          7 Corwin-Aufderhar               9973156203 kattlee6@wsj.com                                                                                                                                  
+          8 Kassulke-Franecki              2809344845 ahuckle7@ucoz.ru                                                                                                                                  
+          9 Bechtelar Group                6675882338 lthorwarth8@netscape.com                                                                                                                          
+         10 Homenick-Gutmann               9239477948 ljoseph9@salon.com                                                                                                                                
+         11 Block-Grant                    3026774726 zbenera@cnn.com                                                                                                                                   
+         12 Feil, Reichert and Sporer      2563388004 aklimshukb@wordpress.org                                                                                                                          
+         13 Renner-MacGyver                1419021716 nslimmingc@dailymail.co.uk                                                                                                                        
+         14 Ortiz, Emard and Bashirian     1068252572 gjewettd@craigslist.org                                                                                                                           
+         15 Graham-Murazik                 8693187759 sstreetleye@apache.org                                                                                                                            
+
+
+Customer Table:
+
+   CUST_ID CUST_LNAME      CUST_FNAME      CUST_CREDITBAL                                                                                                                                               
+---------- --------------- --------------- --------------                                                                                                                                               
+         1 Phayre          Shayne                   70.89                                                                                                                                               
+         2 Truder          Morganica                97.98                                                                                                                                               
+         3 Downer          Ira                      40.89                                                                                                                                               
+         4 McChruiter      Ezequiel                 93.55                                                                                                                                               
+         5 Stillmann       Codi                     63.36                                                                                                                                               
+         6 Brimblecomb     Kirsteni                 44.19                                                                                                                                               
+         7 Wigzell         Nicol                    12.84                                                                                                                                               
+         8 Jeffery         Sigismond                88.04                                                                                                                                               
+         9 Everingham      Sergent                  79.41                                                                                                                                               
+        10 Arcase          Cathee                   41.71                                                                                                                                               
+        11 Hickeringill    Shawn                    40.85                                                                                                                                               
+        12 Harwick         Claudetta                96.03                                                                                                                                               
+        13 Nisby           Jillene                  53.48                                                                                                                                               
+        14 Giacobillo      Bink                      74.1                                                                                                                                               
+        15 Gadsden         Mason                    17.28                                                                                                                                               
+
+
+Cust_email Table:
+
+   CUST_ID CUST_EMAIL                                                                                                                                                                                   
+---------- --------------------------------------------------                                                                                                                                           
+         1 npidcock0@blog.com                                                                                                                                                                           
+         2 vmarle1@blogs.com                                                                                                                                                                            
+         3 ekowal2@google.com                                                                                                                                                                           
+         4 obowller3@scientificamerican.com                                                                                                                                                             
+         5 amacteague4@blinklist.com                                                                                                                                                                    
+         6 bcreedland5@ucla.edu                                                                                                                                                                         
+         7 fbeeby6@latimes.com                                                                                                                                                                          
+         8 dkilduff7@theatlantic.com                                                                                                                                                                    
+         9 awinterbotham8@omniture.com                                                                                                                                                                  
+        10 rpadly9@utexas.edu                                                                                                                                                                           
+        11 asawera@xing.com                                                                                                                                                                             
+        12 sbowcockb@sitemeter.com                                                                                                                                                                      
+        13 wloadc@w3.org                                                                                                                                                                                
+        14 wdenyukhind@meetup.com                                                                                                                                                                       
+        15 ebumpase@engadget.com                                                                                                                                                                        
+
+
+Instrument Table:
+
+   INST_ID INST_SUPERTYPE       INST_SUBTYPE         I INST_PRICE I                                                                                                                                     
+---------- -------------------- -------------------- - ---------- -                                                                                                                                     
+         1 Piano                Grand Piano          0       98.1 0                                                                                                                                     
+         2 Guitar               Electric Guitar      1      18.04 1                                                                                                                                     
+         3 Saxophone            Alto Saxophone       1      62.32 0                                                                                                                                     
+         4 Piano                Upright Piano        0      87.18 0                                                                                                                                     
+         5 Guitar               Acoustic Guitar      0       5.18 0                                                                                                                                     
+         6 Saxophone            Baritone Saxophone   0      30.24 0                                                                                                                                     
+         7 Piano                Grand Piano          0      97.99 0                                                                                                                                     
+         8 Guitar               Electric Guitar      1      57.45 1                                                                                                                                     
+         9 Saxophone            Alto Saxophone       1      23.72 1                                                                                                                                     
+        10 Piano                Upright Piano        1      25.09 1                                                                                                                                     
+        11 Guitar               Acoustic Guitar      1      32.62 1                                                                                                                                     
+        12 Saxophone            Baritone Saxophone   0      15.35 0                                                                                                                                     
+        13 Piano                Grand Piano          1      29.02 0                                                                                                                                     
+        14 Guitar               Electric Guitar      0      79.25 1                                                                                                                                     
+        15 Saxophone            Alto Saxophone       1      32.78 0                                                                                                                                     
+
+
+Concert Table:
+
+CONCERT_ID CONCERT_D CONCERT_COST                                                                                                                                                                       
+---------- --------- ------------                                                                                                                                                                       
+         1 25-AUG-25            3                                                                                                                                                                       
+         2 31-MAY-25                                                                                                                                                                                    
+         3 20-DEC-24           28                                                                                                                                                                       
+         4 27-SEP-25           47                                                                                                                                                                       
+         5 04-MAY-25           34                                                                                                                                                                       
+         6 15-AUG-25           45                                                                                                                                                                       
+         7 01-OCT-25                                                                                                                                                                                    
+         8 19-MAY-25                                                                                                                                                                                    
+         9 19-APR-25            5                                                                                                                                                                       
+        10 04-MAY-25           42                                                                                                                                                                       
+        11 24-DEC-24                                                                                                                                                                                    
+        12 06-AUG-25           22                                                                                                                                                                       
+        13 30-APR-25           15                                                                                                                                                                       
+        14 22-FEB-25           17                                                                                                                                                                       
+        15 25-JAN-25           27                                                                                                                                                                       
+
+
+Class Table:
+
+  CLASS_ID C CLASS_COST CLASS_SCH    EMPL_ID                                                                                                                                                            
+---------- - ---------- --------- ----------                                                                                                                                                            
+         1 3     240.16 26-DEC-22          5                                                                                                                                                            
+         2 2        411 04-DEC-26         14                                                                                                                                                            
+         3 1     428.79 26-FEB-20          4                                                                                                                                                            
+         4 3      129.3 09-JUL-26          1                                                                                                                                                            
+         5 1      487.4 27-SEP-30          2                                                                                                                                                            
+         6 3     145.13 05-FEB-26         10                                                                                                                                                            
+         7 1      260.6 22-JUL-29          5                                                                                                                                                            
+         8 3     252.41 28-OCT-28          8                                                                                                                                                            
+         9 3      442.4 14-APR-20          8                                                                                                                                                            
+        10 1     412.32 07-JAN-29          1                                                                                                                                                            
+        11 3      30.13 21-JAN-20         11                                                                                                                                                            
+        12 1     481.27 26-JAN-24         10                                                                                                                                                            
+        13 3     493.59 14-NOV-24          5                                                                                                                                                            
+        14 1     178.27 15-JUL-20          5                                                                                                                                                            
+        15 1     266.47 18-AUG-21          5                                                                                                                                                            
+
+
+Class_instruments Table:
+
+  CLASS_ID    INST_ID                                                                                                                                                                                   
+---------- ----------                                                                                                                                                                                   
+         1         14                                                                                                                                                                                   
+         2          8                                                                                                                                                                                   
+         3          3                                                                                                                                                                                   
+         4         15                                                                                                                                                                                   
+         5         12                                                                                                                                                                                   
+         6          7                                                                                                                                                                                   
+         7          8                                                                                                                                                                                   
+         8         11                                                                                                                                                                                   
+         9         10                                                                                                                                                                                   
+        10          4                                                                                                                                                                                   
+        11          1                                                                                                                                                                                   
+        12          3                                                                                                                                                                                   
+        13         14                                                                                                                                                                                   
+        14         15                                                                                                                                                                                   
+        15          3                                                                                                                                                                                   
+
+
+Concert_class_id Table:
+
+CONCERT_ID   CLASS_ID                                                                                                                                                                                   
+---------- ----------                                                                                                                                                                                   
+         1          3                                                                                                                                                                                   
+         2          7                                                                                                                                                                                   
+         3         15                                                                                                                                                                                   
+         4          6                                                                                                                                                                                   
+         5         15                                                                                                                                                                                   
+         6         14                                                                                                                                                                                   
+         7          4                                                                                                                                                                                   
+         8          2                                                                                                                                                                                   
+         9          4                                                                                                                                                                                   
+        10         11                                                                                                                                                                                   
+        11         12                                                                                                                                                                                   
+        12          9                                                                                                                                                                                   
+        13         10                                                                                                                                                                                   
+        14         12                                                                                                                                                                                   
+        15          8                                                                                                                                                                                   
+
+
+Part Table:
+
+   PART_ID PART_TYPE       PART_PRICE PART_STOCK SUPPLIER_ID                                                                                                                                            
+---------- --------------- ---------- ---------- -----------                                                                                                                                            
+         1 cymbals              15.22          2           1                                                                                                                                            
+         2 strings               19.5          8           2                                                                                                                                            
+         3 valves               69.86          9           3                                                                                                                                            
+         4 pegs                  3.32         10           4                                                                                                                                            
+         5 mouthpiece           40.12          0           5                                                                                                                                            
+         6 cymbals              33.36          2           6                                                                                                                                            
+         7 drumheads            72.63          3           7                                                                                                                                            
+         8 valves               11.83          9           8                                                                                                                                            
+         9 drumheads             4.05          5           9                                                                                                                                            
+        10 valves               32.99         10          10                                                                                                                                            
+        11 valves               27.64          8          11                                                                                                                                            
+        12 tuning knobs         86.17          0          12                                                                                                                                            
+        13 reeds                 21.7          1          13                                                                                                                                            
+        14 cymbals              56.12          5          14                                                                                                                                            
+        15 drumheads            39.34          4          15                                                                                                                                            
+
+
+Invoice Table:
+
+INVOICE_ID INVOICE_D    CUST_ID INVOICE_TOTAL                                                                                                                                                           
+---------- --------- ---------- -------------                                                                                                                                                           
+         1 17-DEC-24          1         97.95                                                                                                                                                           
+         2 16-NOV-25          2         51.76                                                                                                                                                           
+         3 13-OCT-25          3         85.96                                                                                                                                                           
+         4 25-JUL-25          4         75.63                                                                                                                                                           
+         5 19-APR-25          5         89.93                                                                                                                                                           
+         6 07-JUL-25          6         10.45                                                                                                                                                           
+         7 28-DEC-24          7         60.64                                                                                                                                                           
+         8 31-OCT-25          8         89.53                                                                                                                                                           
+         9 08-FEB-25          9         13.34                                                                                                                                                           
+        10 03-APR-25         10         24.98                                                                                                                                                           
+        11 06-MAR-25         11         38.56                                                                                                                                                           
+        12 26-AUG-25         12         11.65                                                                                                                                                           
+        13 07-FEB-25         13         27.08                                                                                                                                                           
+        14 27-OCT-25         14         69.86                                                                                                                                                           
+        15 11-MAR-25                    50.07                                                                                                                                                           
+
+
+Rental Table:
+
+ RENTAL_ID    CUST_ID    INST_ID RENTAL_ST RENTAL_DU RENTAL_COST                                                                                                                                        
+---------- ---------- ---------- --------- --------- -----------                                                                                                                                        
+         1          1          1 12-DEC-16 22-NOV-23     1691.44                                                                                                                                        
+         2          2          2 05-DEC-18 02-SEP-25     4969.19                                                                                                                                        
+         3          3          3 20-MAY-18 31-OCT-24     2080.39                                                                                                                                        
+         4          4          4 11-DEC-20 15-APR-23     1859.24                                                                                                                                        
+         5          5          5 21-JUL-20 09-AUG-21     3269.16                                                                                                                                        
+         6          6          6 13-NOV-19 11-DEC-23     4852.78                                                                                                                                        
+         7          7          7 21-MAY-19 06-JUN-25     4134.26                                                                                                                                        
+         8          8          8 21-JAN-20 30-NOV-24     2894.93                                                                                                                                        
+         9          9          9 23-FEB-19 21-JUN-21       979.4                                                                                                                                        
+        10         10         10 22-NOV-15 14-OCT-21     1640.15                                                                                                                                        
+        11         11         11 29-JUL-20 07-JUN-24     3622.66                                                                                                                                        
+        12         12         12 16-AUG-15 15-AUG-24      111.66                                                                                                                                        
+        13         13         13 25-FEB-20 09-AUG-21      442.77                                                                                                                                        
+        14         14         14 17-OCT-18 10-JAN-21     1993.46                                                                                                                                        
+        15         15         15 21-NOV-18 25-MAR-23      2333.7                                                                                                                                        
+
+
+Repair Table:
+
+ REPAIR_ID    CUST_ID    INST_ID REPAIR_COST REPAIR_DA                                                                                                                                                  
+---------- ---------- ---------- ----------- ---------                                                                                                                                                  
+         1          1          1      946.79 09-JUL-17                                                                                                                                                  
+         2          2          2      126.49 01-APR-19                                                                                                                                                  
+         3          3          3      849.77 13-MAR-16                                                                                                                                                  
+         4          4          4      110.92 28-FEB-15                                                                                                                                                  
+         5          5          5      958.23 21-SEP-28                                                                                                                                                  
+         6          6          6      804.41 25-FEB-28                                                                                                                                                  
+         7          7          7       373.1 09-JUL-29                                                                                                                                                  
+         8          8          8      494.38 04-OCT-30                                                                                                                                                  
+         9          9          9      732.31 14-DEC-23                                                                                                                                                  
+        10         10         10      544.21 24-MAR-23                                                                                                                                                  
+        11         11         11         238 08-AUG-25                                                                                                                                                  
+        12         12         12      239.43 03-OCT-20                                                                                                                                                  
+        13         13         13       22.88 14-AUG-17                                                                                                                                                  
+        14         14         14      620.21 04-JUN-27                                                                                                                                                  
+        15         15         15       577.6 18-JUL-28                                                                                                                                                  
+
