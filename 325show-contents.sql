@@ -4,7 +4,6 @@
 
 spool 325result-contents.txt
 
-
 set pagesize 100
 set linesize 200
 
