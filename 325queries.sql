@@ -180,3 +180,5 @@ select Empl_id, Empl_fname || ' ' || Empl_lname as Full_Name, Empl_salary,
        end as Salary_Range
 from Employee
 order by Empl_salary;
+
+spool off

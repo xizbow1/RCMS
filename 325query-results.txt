@@ -400,4 +400,9 @@ Query 24: Employees sorted into salary ranges
          6 Ax Burth                          61473.47 Medium                                                                                          
          9 Jareb Edgerly                     64939.21 High                                                                                            
         15 Idelle Gorvin                     65738.24 High                                                                                            
-        12 Mitzi Gullberg                    65745.62 High        
+        12 Mitzi Gullberg                    65745.62 High                                                                                            
+        10 Thebault Matuszewski              68465.72 High                                                                                            
+         2 Kacey Dalwood                     69990.98 High                                                                                            
+
+15 rows selected.
+
