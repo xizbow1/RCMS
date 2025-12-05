@@ -83,3 +83,33 @@ select Invoice.Invoice_id, Invoice.Invoice_date, Invoice.Invoice_total
 from Invoice
 where Invoice.Invoice_date < add_months(sysdate, -6)
 order by Invoice.Invoice_date;
+
+prompt Query 12: List all customers and their emails
+select Customer.Cust_id, Customer.Cust_fname || ' ' || Customer.Cust_lname as Full_Name, Cust_email.Cust_email
+from Customer
+left join Cust_email on Customer.Cust_id = Cust_email.Cust_id
+order by Customer.Cust_id;
+
+prompt Query 13: List all employees that are paid more than the average
+select Empl_id, Empl_fname || ' ' || Empl_lname as Full_Name, Empl_salary
+from Employee
+where Empl_salary > (select avg(Empl_salary) from Employee)
+order by Empl_salary desc;
+
+prompt Query 14: List all parts supplied by suppliers whose name starts with 'H' and price between $10 and $40
+select p.Part_id, p.Part_type, p.Part_price
+from Part p
+where p.Part_price between 10 and 40
+  and p.Supplier_id in (
+    select Supplier_id
+    from Supplier
+    where Supplier_name like 'H%'
+  );
+
+prompt Query 15: Level 2-3 classes taught by employees that make more than the average salary
+select c.Class_id, e.Empl_fname || ' ' || e.Empl_lname as Full_Name, e.Empl_salary
+from Class c
+join Employee e on c.Empl_id = e.Empl_id
+where c.Class_level in (2, 3)
+    and e.Empl_salary > (select avg(Empl_salary) from Employee)
+order by c.Class_id;

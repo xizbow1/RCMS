@@ -179,4 +179,41 @@ INVOICE_ID INVOICE_D INVOICE_TOTAL
 ---------- --------- -------------                                                                                                                    
          1 17-DEC-24         97.95                                                                                                                    
          7 28-DEC-24         60.64                                                                                                                    
-        13 07-FEB-25         27.08                                                                                                       
+        13 07-FEB-25         27.08                                                                                                                    
+         9 08-FEB-25         13.34                                                                                                                    
+        11 06-MAR-25         38.56                                                                                                                    
+        15 11-MAR-25         50.07                                                                                                                    
+        10 03-APR-25         24.98                                                                                                                    
+         5 19-APR-25         89.93                                                                                                                    
+
+8 rows selected.
+
+Query 12: List all customers and their emails
+
+   CUST_ID FULL_NAME                      CUST_EMAIL                                                                                                  
+---------- ------------------------------ --------------------------------------------------                                                          
+         1 Shayne Phayre                  npidcock0@blog.com                                                                                          
+         2 Morganica Truder               vmarle1@blogs.com                                                                                           
+         3 Ira Downer                     ekowal2@google.com                                                                                          
+         4 Ezequiel McChruiter            obowller3@scientificamerican.com                                                                            
+         5 Codi Stillmann                 amacteague4@blinklist.com                                                                                   
+         6 Kirsteni Brimblecomb           bcreedland5@ucla.edu                                                                                        
+         7 Nicol Wigzell                  fbeeby6@latimes.com                                                                                         
+         8 Sigismond Jeffery              dkilduff7@theatlantic.com                                                                                   
+         9 Sergent Everingham             awinterbotham8@omniture.com                                                                                 
+        10 Cathee Arcase                  rpadly9@utexas.edu                                                                                          
+        11 Shawn Hickeringill             asawera@xing.com                                                                                            
+        12 Claudetta Harwick              sbowcockb@sitemeter.com                                                                                     
+        13 Jillene Nisby                  wloadc@w3.org                                                                                               
+        14 Bink Giacobillo                wdenyukhind@meetup.com                                                                                      
+        15 Mason Gadsden                  ebumpase@engadget.com                                                                                       
+
+15 rows selected.
+
+Query 13: List all employees that are paid more than the average
+
+   EMPL_ID FULL_NAME                      EMPL_SALARY                                                                                                 
+---------- ------------------------------ -----------                                                                                                 
+         2 Kacey Dalwood                     69990.98                                                                                                 
+        10 Thebault Matuszewski              68465.72                                                                                                 
+    
