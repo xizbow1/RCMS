@@ -1,0 +1,182 @@
+Query 1: List all products and their suppliers (if applicable)
+
+   PART_ID PART_TYPE       PART_PRICE SUPPLIER_NAME                                                                                                   
+---------- --------------- ---------- ------------------------------                                                                                  
+         1 cymbals              15.22 Hermann, Kris and McLaughlin                                                                                    
+         2 strings               19.5 Bernhard, Wisozk and Dare                                                                                       
+         3 valves               69.86 Bode, Kris and Corwin                                                                                           
+         4 pegs                  3.32 Hilpert, Hauck and Bogisich                                                                                     
+         5 mouthpiece           40.12 Dach Inc                                                                                                        
+         6 cymbals              33.36 Thompson, O'Hara and Prohaska                                                                                   
+         7 drumheads            72.63 Corwin-Aufderhar                                                                                                
+         8 valves               11.83 Kassulke-Franecki                                                                                               
+         9 drumheads             4.05 Bechtelar Group                                                                                                 
+        10 valves               32.99 Homenick-Gutmann                                                                                                
+        11 valves               27.64 Block-Grant                                                                                                     
+        12 tuning knobs         86.17 Feil, Reichert and Sporer                                                                                       
+        13 reeds                 21.7 Renner-MacGyver                                                                                                 
+        14 cymbals              56.12 Ortiz, Emard and Bashirian                                                                                      
+        15 drumheads            39.34 Graham-Murazik                                                                                                  
+
+15 rows selected.
+
+Query 2: List all suppliers, and the number of items they have supplied.
+
+SUPPLIER_ID SUPPLIER_NAME                   NUM_PARTS                                                                                                 
+----------- ------------------------------ ----------                                                                                                 
+          1 Hermann, Kris and McLaughlin            1                                                                                                 
+          2 Bernhard, Wisozk and Dare               1                                                                                                 
+          3 Bode, Kris and Corwin                   1                                                                                                 
+          4 Hilpert, Hauck and Bogisich             1                                                                                                 
+          5 Dach Inc                                1                                                                                                 
+          6 Thompson, O'Hara and Prohaska           1                                                                                                 
+          7 Corwin-Aufderhar                        1                                                                                                 
+          8 Kassulke-Franecki                       1                                                                                                 
+          9 Bechtelar Group                         1                                                                                                 
+         10 Homenick-Gutmann                        1                                                                                                 
+         11 Block-Grant                             1                                                                                                 
+         12 Feil, Reichert and Sporer               1                                                                                                 
+         13 Renner-MacGyver                         1                                                                                                 
+         14 Ortiz, Emard and Bashirian              1                                                                                                 
+         15 Graham-Murazik                          1                                                                                                 
+
+15 rows selected.
+
+Query 3: List all customers and their rented instruments
+
+   CUST_ID FULL_NAME                         INST_ID INST_SUPERTYPE       INST_SUBTYPE                                                                
+---------- ------------------------------ ---------- -------------------- --------------------                                                        
+         1 Shayne Phayre                           1 Piano                Grand Piano                                                                 
+         2 Morganica Truder                        2 Guitar               Electric Guitar                                                             
+         3 Ira Downer                              3 Saxophone            Alto Saxophone                                                              
+         4 Ezequiel McChruiter                     4 Piano                Upright Piano                                                               
+         5 Codi Stillmann                          5 Guitar               Acoustic Guitar                                                             
+         6 Kirsteni Brimblecomb                    6 Saxophone            Baritone Saxophone                                                          
+         7 Nicol Wigzell                           7 Piano                Grand Piano                                                                 
+         8 Sigismond Jeffery                       8 Guitar               Electric Guitar                                                             
+         9 Sergent Everingham                      9 Saxophone            Alto Saxophone                                                              
+        10 Cathee Arcase                          10 Piano                Upright Piano                                                               
+        11 Shawn Hickeringill                     11 Guitar               Acoustic Guitar                                                             
+        12 Claudetta Harwick                      12 Saxophone            Baritone Saxophone                                                          
+        13 Jillene Nisby                          13 Piano                Grand Piano                                                                 
+        14 Bink Giacobillo                        14 Guitar               Electric Guitar                                                             
+        15 Mason Gadsden                          15 Saxophone            Alto Saxophone                                                              
+
+15 rows selected.
+
+Query 4: List all repairs, and the customer name
+
+ REPAIR_ID FULL_NAME                      REPAIR_DA REPAIR_COST                                                                                       
+---------- ------------------------------ --------- -----------                                                                                       
+         1 Shayne Phayre                  09-JUL-17      946.79                                                                                       
+         2 Morganica Truder               01-APR-19      126.49                                                                                       
+         3 Ira Downer                     13-MAR-16      849.77                                                                                       
+         4 Ezequiel McChruiter            28-FEB-15      110.92                                                                                       
+         5 Codi Stillmann                 21-SEP-28      958.23                                                                                       
+         6 Kirsteni Brimblecomb           25-FEB-28      804.41                                                                                       
+         7 Nicol Wigzell                  09-JUL-29       373.1                                                                                       
+         8 Sigismond Jeffery              04-OCT-30      494.38                                                                                       
+         9 Sergent Everingham             14-DEC-23      732.31                                                                                       
+        10 Cathee Arcase                  24-MAR-23      544.21                                                                                       
+        11 Shawn Hickeringill             08-AUG-25         238                                                                                       
+        12 Claudetta Harwick              03-OCT-20      239.43                                                                                       
+        13 Jillene Nisby                  14-AUG-17       22.88                                                                                       
+        14 Bink Giacobillo                04-JUN-27      620.21                                                                                       
+        15 Mason Gadsden                  18-JUL-28       577.6                                                                                       
+
+15 rows selected.
+
+Query 5: Count the number of times each instrument has been rented
+
+   INST_ID INST_SUPERTYPE       INST_SUBTYPE         NUM_RENTALS                                                                                      
+---------- -------------------- -------------------- -----------                                                                                      
+         1 Piano                Grand Piano                    1                                                                                      
+         2 Guitar               Electric Guitar                1                                                                                      
+         3 Saxophone            Alto Saxophone                 1                                                                                      
+         4 Piano                Upright Piano                  1                                                                                      
+         5 Guitar               Acoustic Guitar                1                                                                                      
+         6 Saxophone            Baritone Saxophone             1                                                                                      
+         7 Piano                Grand Piano                    1                                                                                      
+         8 Guitar               Electric Guitar                1                                                                                      
+         9 Saxophone            Alto Saxophone                 1                                                                                      
+        10 Piano                Upright Piano                  1                                                                                      
+        11 Guitar               Acoustic Guitar                1                                                                                      
+        12 Saxophone            Baritone Saxophone             1                                                                                      
+        13 Piano                Grand Piano                    1                                                                                      
+        14 Guitar               Electric Guitar                1                                                                                      
+        15 Saxophone            Alto Saxophone                 1                                                                                      
+
+15 rows selected.
+
+Query 6: Average price of a repair by instrument type
+
+INST_SUPERTYPE       AVG_REPAIR_COST                                                                                                                  
+-------------------- ---------------                                                                                                                  
+Guitar                       487.462                                                                                                                  
+Piano                         399.58                                                                                                                  
+Saxophone                    640.704                                                                                                                  
+
+3 rows selected.
+
+Query 7: All customers with an active rental
+
+   CUST_ID FULL_NAME                                                                                                                                  
+---------- ------------------------------                                                                                                             
+        10 Cathee Arcase                                                                                                                              
+        14 Bink Giacobillo                                                                                                                            
+
+2 rows selected.
+
+Query 8: List all parts that are low in stock (less than 5)
+
+   PART_ID PART_TYPE       PART_STOCK                                                                                                                 
+---------- --------------- ----------                                                                                                                 
+         1 cymbals                  2                                                                                                                 
+         5 mouthpiece               0                                                                                                                 
+         6 cymbals                  2                                                                                                                 
+         7 drumheads                3                                                                                                                 
+        12 tuning knobs             0                                                                                                                 
+        13 reeds                    1                                                                                                                 
+        15 drumheads                4                                                                                                                 
+
+7 rows selected.
+
+Query 9: List all employees with their job titles and salaries
+
+   EMPL_ID FULL_NAME                      EMPL_JOB_TITLE                           EMPL_SALARY                                                        
+---------- ------------------------------ ---------------------------------------- -----------                                                        
+         1 Horten Kime                    Store Manager                               60461.19                                                        
+         2 Kacey Dalwood                  Music Instructor                            69990.98                                                        
+         3 Gwenny Bomfield                Sales Associate                             56506.45                                                        
+         4 Alphonse Gerdes                Music Instructor                            34755.79                                                        
+         5 Ignazio Lambillion             Inventory Specialist                         33121.2                                                        
+         6 Ax Burth                       Store Manager                               61473.47                                                        
+         7 Chelsy Dunford                 Sales Associate                             30116.43                                                        
+         8 Bordie Tupling                 Customer Service Rep                        61005.97                                                        
+         9 Jareb Edgerly                  Music Instructor                            64939.21                                                        
+        10 Thebault Matuszewski           Inventory Specialist                        68465.72                                                        
+        11 Myrvyn Kike                    Store Manager                                32607.6                                                        
+        12 Mitzi Gullberg                 Customer Service Rep                        65745.62                                                        
+        13 Loren Longbone                 Music Instructor                            60176.91                                                        
+        14 Bruis Lackington               Customer Service Rep                        60501.53                                                        
+        15 Idelle Gorvin                  Customer Service Rep                        65738.24                                                        
+
+15 rows selected.
+
+Query 10: Total revenue from rentals, grouped by instrument supertype
+
+INST_SUPERTYPE       TOTAL_REVENUE                                                                                                                    
+-------------------- -------------                                                                                                                    
+Guitar                     16749.4                                                                                                                    
+Saxophone                 10357.93                                                                                                                    
+Piano                      9767.86                                                                                                                    
+
+3 rows selected.
+
+Query 11: List all invoices from more than 6 months ago
+
+INVOICE_ID INVOICE_D INVOICE_TOTAL                                                                                                                    
+---------- --------- -------------                                                                                                                    
+         1 17-DEC-24         97.95                                                                                                                    
+         7 28-DEC-24         60.64                                                                                                                    
+        13 07-FEB-25         27.08                                                                                                       

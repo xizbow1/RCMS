@@ -539,7 +539,7 @@ insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Renta
 values (9, 9, 9, TO_DATE('02/23/2019','MM/DD/YYYY'), TO_DATE('06/21/2021','MM/DD/YYYY'), 979.4);
 
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost)
-values (10, 10, 10, TO_DATE('11/22/2015','MM/DD/YYYY'), TO_DATE('10/14/2021','MM/DD/YYYY'), 1640.15);
+values (10, 10, 10, TO_DATE('11/22/2015','MM/DD/YYYY'), null, 1640.15);
 
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost)
 values (11, 11, 11, TO_DATE('07/29/2020','MM/DD/YYYY'), TO_DATE('06/07/2024','MM/DD/YYYY'), 3622.66);
@@ -551,7 +551,7 @@ insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Renta
 values (13, 13, 13, TO_DATE('02/25/2020','MM/DD/YYYY'), TO_DATE('08/09/2021','MM/DD/YYYY'), 442.77);
 
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost)
-values (14, 14, 14, TO_DATE('10/17/2018','MM/DD/YYYY'), TO_DATE('01/10/2021','MM/DD/YYYY'), 1993.46);
+values (14, 14, 14, TO_DATE('10/17/2018','MM/DD/YYYY'), null, 1993.46);
 
 insert into Rental (Rental_id, Cust_id, Inst_id, Rental_start, Rental_due, Rental_cost)
 values (15, 15, 15, TO_DATE('11/21/2018','MM/DD/YYYY'), TO_DATE('03/25/2023','MM/DD/YYYY'), 2333.7);
