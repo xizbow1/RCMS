@@ -216,4 +216,188 @@ Query 13: List all employees that are paid more than the average
 ---------- ------------------------------ -----------                                                                                                 
          2 Kacey Dalwood                     69990.98                                                                                                 
         10 Thebault Matuszewski              68465.72                                                                                                 
-    
+        12 Mitzi Gullberg                    65745.62                                                                                                 
+        15 Idelle Gorvin                     65738.24                                                                                                 
+         9 Jareb Edgerly                     64939.21                                                                                                 
+         6 Ax Burth                          61473.47                                                                                                 
+         8 Bordie Tupling                    61005.97                                                                                                 
+        14 Bruis Lackington                  60501.53                                                                                                 
+         1 Horten Kime                       60461.19                                                                                                 
+        13 Loren Longbone                    60176.91                                                                                                 
+         3 Gwenny Bomfield                   56506.45                                                                                                 
+
+11 rows selected.
+
+Query 14: List all parts supplied by suppliers whose name starts with 'H' and price between $10 and $40
+
+   PART_ID PART_TYPE       PART_PRICE                                                                                                                 
+---------- --------------- ----------                                                                                                                 
+         1 cymbals              15.22                                                                                                                 
+        10 valves               32.99                                                                                                                 
+
+2 rows selected.
+
+Query 15: Level 2-3 classes taught by employees that make more than the average salary
+
+  CLASS_ID FULL_NAME                      EMPL_SALARY                                                                                                 
+---------- ------------------------------ -----------                                                                                                 
+         2 Bruis Lackington                  60501.53                                                                                                 
+         4 Horten Kime                       60461.19                                                                                                 
+         6 Thebault Matuszewski              68465.72                                                                                                 
+         8 Bordie Tupling                    61005.97                                                                                                 
+         9 Bordie Tupling                    61005.97                                                                                                 
+
+5 rows selected.
+
+Query 16: List all instruments that are rentable but not currently rented
+
+   INST_ID INST_SUPERTYPE       INST_SUBTYPE                                                                                                          
+---------- -------------------- --------------------                                                                                                  
+         3 Saxophone            Alto Saxophone                                                                                                        
+        13 Piano                Grand Piano                                                                                                           
+        15 Saxophone            Alto Saxophone                                                                                                        
+
+3 rows selected.
+
+Query 17: Parts that should be reordered (below 3), and their supplier
+
+   PART_ID PART_TYPE       PART_STOCK SUPPLIER_NAME                                                                                                   
+---------- --------------- ---------- ------------------------------                                                                                  
+        12 tuning knobs             0 Feil, Reichert and Sporer                                                                                       
+         5 mouthpiece               0 Dach Inc                                                                                                        
+        13 reeds                    1 Renner-MacGyver                                                                                                 
+         1 cymbals                  2 Hermann, Kris and McLaughlin                                                                                    
+         6 cymbals                  2 Thompson, O'Hara and Prohaska                                                                                   
+
+5 rows selected.
+
+Query 18: Average and total instrument cost by supertype
+
+INST_SUPERTYPE        AVG_PRICE TOTAL_PRICE                                                                                                           
+-------------------- ---------- -----------                                                                                                           
+Guitar                   38.508      192.54                                                                                                           
+Piano                    67.476      337.38                                                                                                           
+Saxophone                32.882      164.41                                                                                                           
+
+3 rows selected.
+
+Query 19: Invoice totals by month
+
+YEARMON NUM_INVOICES TOTAL_INVOICED                                                                                                                   
+------- ------------ --------------                                                                                                                   
+2024-12            2         158.59                                                                                                                   
+2025-02            2          40.42                                                                                                                   
+2025-03            2          88.63                                                                                                                   
+2025-04            2         114.91                                                                                                                   
+2025-07            2          86.08                                                                                                                   
+2025-08            1          11.65                                                                                                                   
+2025-10            3         245.35                                                                                                                   
+2025-11            1          51.76                                                                                                                   
+
+8 rows selected.
+
+Query 20: Total rental revenue by customer
+
+   CUST_ID FULL_NAME                      TOTAL_RENTAL_COST                                                                                           
+---------- ------------------------------ -----------------                                                                                           
+         2 Morganica Truder                         4969.19                                                                                           
+         6 Kirsteni Brimblecomb                     4852.78                                                                                           
+         7 Nicol Wigzell                            4134.26                                                                                           
+        11 Shawn Hickeringill                       3622.66                                                                                           
+         5 Codi Stillmann                           3269.16                                                                                           
+         8 Sigismond Jeffery                        2894.93                                                                                           
+        15 Mason Gadsden                             2333.7                                                                                           
+         3 Ira Downer                               2080.39                                                                                           
+        14 Bink Giacobillo                          1993.46                                                                                           
+         4 Ezequiel McChruiter                      1859.24                                                                                           
+         1 Shayne Phayre                            1691.44                                                                                           
+        10 Cathee Arcase                            1640.15                                                                                           
+         9 Sergent Everingham                         979.4                                                                                           
+        13 Jillene Nisby                             442.77                                                                                           
+        12 Claudetta Harwick                         111.66                                                                                           
+
+15 rows selected.
+
+Query 21: Employees and the count of classes that they teach
+
+   EMPL_ID FULL_NAME                      NUM_CLASSES                                                                                                 
+---------- ------------------------------ -----------                                                                                                 
+         5 Ignazio Lambillion                       5                                                                                                 
+         1 Horten Kime                              2                                                                                                 
+        10 Thebault Matuszewski                     2                                                                                                 
+         8 Bordie Tupling                           2                                                                                                 
+         2 Kacey Dalwood                            1                                                                                                 
+         4 Alphonse Gerdes                          1                                                                                                 
+        14 Bruis Lackington                         1                                                                                                 
+        11 Myrvyn Kike                              1                                                                                                 
+        12 Mitzi Gullberg                           0                                                                                                 
+         3 Gwenny Bomfield                          0                                                                                                 
+        15 Idelle Gorvin                            0                                                                                                 
+        13 Loren Longbone                           0                                                                                                 
+         6 Ax Burth                                 0                                                                                                 
+         9 Jareb Edgerly                            0                                                                                                 
+         7 Chelsy Dunford                           0                                                                                                 
+
+15 rows selected.
+
+Query 22: Instruments used in a class, with details of the instrument
+
+  CLASS_ID    INST_ID INST_SUPERTYPE       INST_SUBTYPE                                                                                               
+---------- ---------- -------------------- --------------------                                                                                       
+         1         14 Guitar               Electric Guitar                                                                                            
+         2          8 Guitar               Electric Guitar                                                                                            
+         3          3 Saxophone            Alto Saxophone                                                                                             
+         4         15 Saxophone            Alto Saxophone                                                                                             
+         5         12 Saxophone            Baritone Saxophone                                                                                         
+         6          7 Piano                Grand Piano                                                                                                
+         7          8 Guitar               Electric Guitar                                                                                            
+         8         11 Guitar               Acoustic Guitar                                                                                            
+         9         10 Piano                Upright Piano                                                                                              
+        10          4 Piano                Upright Piano                                                                                              
+        11          1 Piano                Grand Piano                                                                                                
+        12          3 Saxophone            Alto Saxophone                                                                                             
+        13         14 Guitar               Electric Guitar                                                                                            
+        14         15 Saxophone            Alto Saxophone                                                                                             
+        15          3 Saxophone            Alto Saxophone                                                                                             
+
+15 rows selected.
+
+Query 23: Suppliers ranked by the total value of parts they supply
+
+SUPPLIER_ID SUPPLIER_NAME                  TOTAL_VALUE                                                                                                
+----------- ------------------------------ -----------                                                                                                
+          3 Bode, Kris and Corwin               628.74                                                                                                
+         10 Homenick-Gutmann                     329.9                                                                                                
+         14 Ortiz, Emard and Bashirian           280.6                                                                                                
+         11 Block-Grant                         221.12                                                                                                
+          7 Corwin-Aufderhar                    217.89                                                                                                
+         15 Graham-Murazik                      157.36                                                                                                
+          2 Bernhard, Wisozk and Dare              156                                                                                                
+          8 Kassulke-Franecki                   106.47                                                                                                
+          6 Thompson, O'Hara and Prohaska        66.72                                                                                                
+          4 Hilpert, Hauck and Bogisich           33.2                                                                                                
+          1 Hermann, Kris and McLaughlin         30.44                                                                                                
+         13 Renner-MacGyver                       21.7                                                                                                
+          9 Bechtelar Group                      20.25                                                                                                
+         12 Feil, Reichert and Sporer                0                                                                                                
+          5 Dach Inc                                 0                                                                                                
+
+15 rows selected.
+
+Query 24: Employees sorted into salary ranges
+
+   EMPL_ID FULL_NAME                      EMPL_SALARY SALARY                                                                                          
+---------- ------------------------------ ----------- ------                                                                                          
+         7 Chelsy Dunford                    30116.43 Low                                                                                             
+        11 Myrvyn Kike                        32607.6 Low                                                                                             
+         5 Ignazio Lambillion                 33121.2 Low                                                                                             
+         4 Alphonse Gerdes                   34755.79 Low                                                                                             
+         3 Gwenny Bomfield                   56506.45 Low                                                                                             
+        13 Loren Longbone                    60176.91 Medium                                                                                          
+         1 Horten Kime                       60461.19 Medium                                                                                          
+        14 Bruis Lackington                  60501.53 Medium                                                                                          
+         8 Bordie Tupling                    61005.97 Medium                                                                                          
+         6 Ax Burth                          61473.47 Medium                                                                                          
+         9 Jareb Edgerly                     64939.21 High                                                                                            
+        15 Idelle Gorvin                     65738.24 High                                                                                            
+        12 Mitzi Gullberg                    65745.62 High        

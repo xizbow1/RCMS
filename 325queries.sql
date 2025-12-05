@@ -113,3 +113,70 @@ join Employee e on c.Empl_id = e.Empl_id
 where c.Class_level in (2, 3)
     and e.Empl_salary > (select avg(Empl_salary) from Employee)
 order by c.Class_id;
+
+prompt Query 16: List all instruments that are rentable but not currently rented
+select Inst_id, Inst_supertype, Inst_subtype
+from Instrument
+where Inst_isRentable = '1' and Inst_isRented = '0' 
+order by Inst_id;
+
+prompt Query 17: Parts that should be reordered (below 3), and their supplier
+select p.Part_id, p.Part_type, p.Part_stock, s.Supplier_name
+from Part p
+left join Supplier s on p.Supplier_id = s.Supplier_id
+where p.Part_stock < 3
+order by p.Part_stock asc;
+
+prompt Query 18: Average and total instrument cost by supertype
+select Inst_supertype, avg(Inst_price) as Avg_price, sum(Inst_price) as Total_price
+from Instrument
+group by Inst_supertype
+order by Inst_supertype;
+
+prompt Query 19: Invoice totals by month
+select to_char(Invoice_date, 'YYYY-MM') as YearMonth,
+       count(*) as Num_Invoices,
+       sum(Invoice_total) as Total_Invoiced
+from Invoice
+where Invoice_date >= add_months(trunc(sysdate, 'MM'), -12)
+group by to_char(Invoice_date, 'YYYY-MM')
+order by YearMonth;
+
+prompt Query 20: Total rental revenue by customer
+select c.Cust_id, c.Cust_fname || ' ' || c.Cust_lname as Full_Name, 
+       sum(r.Rental_cost) as Total_Rental_Cost
+from Customer c
+left join Rental r on c.Cust_id = r.Cust_id 
+group by c.Cust_id, c.Cust_fname, c.Cust_lname
+order by Total_Rental_Cost desc;
+
+prompt Query 21: Employees and the count of classes that they teach
+select e.Empl_id, e.Empl_fname || ' ' || e.Empl_lname as Full_Name, count(cl.Class_id) as Num_Classes
+from Employee e
+left join Class cl on e.Empl_id = cl.Empl_id
+group by e.Empl_id, e.Empl_fname, e.Empl_lname
+order by Num_Classes desc;
+
+prompt Query 22: Instruments used in a class, with details of the instrument
+select cl.Class_id, i.Inst_id, i.Inst_supertype, i.Inst_subtype
+from Class cl
+join Class_instruments ci on cl.Class_id = ci.Class_id
+join Instrument i on ci.Inst_id = i.Inst_id
+order by cl.Class_id, i.Inst_id;
+
+prompt Query 23: Suppliers ranked by the total value of parts they supply
+select s.Supplier_id, s.Supplier_name, sum(p.Part_price * p.Part_stock) as Total_Value
+from Supplier s
+left join Part p on s.Supplier_id = p.Supplier_id
+group by s.Supplier_id, s.Supplier_name
+order by Total_Value desc;
+
+prompt Query 24: Employees sorted into salary ranges
+select Empl_id, Empl_fname || ' ' || Empl_lname as Full_Name, Empl_salary,
+       case 
+           when ntile(3) over (order by Empl_salary) = 1 then 'Low'
+           when ntile(3) over (order by Empl_salary) = 2 then 'Medium'
+           else 'High'
+       end as Salary_Range
+from Employee
+order by Empl_salary;
