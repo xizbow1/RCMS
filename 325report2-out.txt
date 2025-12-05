@@ -1,0 +1,645 @@
+
+================================================
+SECTION 1: Monthly Revenue Breakdown
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+MONTH      RENTALS RENTAL_REV    REPAIRS REPAIR_REV   INVOICES INVOICE_REV TOTAL_REVENUE                                                              
+------- ---------- ---------- ---------- ---------- ---------- ----------- -------------                                                              
+2030-10          0          0          1     494.38          0           0       $494.38                                                              
+2030-10          0          0          1     494.38          0           0       $494.38                                                              
+2029-07          0          0          1      373.1          0           0       $373.10                                                              
+2029-07          0          0          1      373.1          0           0       $373.10                                                              
+2028-09          0          0          1     958.23          0           0       $958.23                                                              
+2028-09          0          0          1     958.23          0           0       $958.23                                                              
+2028-07          0          0          1      577.6          0           0       $577.60                                                              
+2028-07          0          0          1      577.6          0           0       $577.60                                                              
+2028-02          0          0          1     804.41          0           0       $804.41                                                              
+2028-02          0          0          1     804.41          0           0       $804.41                                                              
+2027-06          0          0          1     620.21          0           0       $620.21                                                              
+2027-06          0          0          1     620.21          0           0       $620.21                                                              
+2025-11          0          0          0          0          1       51.76        $51.76                                                              
+2025-11          0          0          0          0          1       51.76        $51.76                                                              
+2025-10          0          0          0          0          3      245.35       $245.35                                                              
+2025-10          0          0          0          0          3      245.35       $245.35                                                              
+2025-08          0          0          1        238          0           0       $238.00                                                              
+2025-08          0          0          0          0          1       11.65        $11.65                                                              
+2025-08          0          0          1        238          1       11.65       $249.65                                                              
+2025-07          0          0          0          0          2       86.08        $86.08                                                              
+2025-07          0          0          0          0          2       86.08        $86.08                                                              
+2025-04          0          0          0          0          2      114.91       $114.91                                                              
+2025-04          0          0          0          0          2      114.91       $114.91                                                              
+2025-03          0          0          0          0          2       88.63        $88.63                                                              
+2025-03          0          0          0          0          2       88.63        $88.63                                                              
+2025-02          0          0          0          0          2       40.42        $40.42                                                              
+2025-02          0          0          0          0          2       40.42        $40.42                                                              
+2024-12          0          0          0          0          2      158.59       $158.59                                                              
+2024-12          0          0          0          0          2      158.59       $158.59                                                              
+2023-12          0          0          1     732.31          0           0       $732.31                                                              
+2023-12          0          0          1     732.31          0           0       $732.31                                                              
+2023-03          0          0          1     544.21          0           0       $544.21                                                              
+2023-03          0          0          1     544.21          0           0       $544.21                                                              
+2020-12          1    1859.24          0          0          0           0     $1,859.24                                                              
+2020-10          0          0          1     239.43          0           0       $239.43                                                              
+2020-10          0          0          1     239.43          0           0       $239.43                                                              
+2020-07          2    6891.82          0          0          0           0     $6,891.82                                                              
+2020-02          1     442.77          0          0          0           0       $442.77                                                              
+2020-01          1    2894.93          0          0          0           0     $2,894.93                                                              
+2019-11          1    4852.78          0          0          0           0     $4,852.78                                                              
+2019-05          1    4134.26          0          0          0           0     $4,134.26                                                              
+2019-04          0          0          1     126.49          0           0       $126.49                                                              
+2019-04          0          0          1     126.49          0           0       $126.49                                                              
+2019-02          1      979.4          0          0          0           0       $979.40                                                              
+2018-12          1    4969.19          0          0          0           0     $4,969.19                                                              
+2018-11          1     2333.7          0          0          0           0     $2,333.70                                                              
+2018-10          1    1993.46          0          0          0           0     $1,993.46                                                              
+2018-05          1    2080.39          0          0          0           0     $2,080.39                                                              
+2017-08          0          0          1      22.88          0           0        $22.88                                                              
+2017-08          0          0          1      22.88          0           0        $22.88                                                              
+2017-07          0          0          1     946.79          0           0       $946.79                                                              
+2017-07          0          0          1     946.79          0           0       $946.79                                                              
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+MONTH      RENTALS RENTAL_REV    REPAIRS REPAIR_REV   INVOICES INVOICE_REV TOTAL_REVENUE                                                              
+------- ---------- ---------- ---------- ---------- ---------- ----------- -------------                                                              
+2016-12          1    1691.44          0          0          0           0     $1,691.44                                                              
+2016-03          0          0          1     849.77          0           0       $849.77                                                              
+2016-03          0          0          1     849.77          0           0       $849.77                                                              
+2015-11          1    1640.15          0          0          0           0     $1,640.15                                                              
+2015-08          1     111.66          0          0          0           0       $111.66                                                              
+2015-02          0          0          1     110.92          0           0       $110.92                                                              
+2015-02          0          0          1     110.92          0           0       $110.92                                                              
+                                                                           -------------                                                              
+TOTAL:                                                                        $53,747.43                                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 2: Revenue by Source (Rentals, Repairs, Invoices)
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+REVENUE NUM_TRANSACTIONS TOTAL_REVENUE AVG_TRANSACTION                                                                                                
+------- ---------------- ------------- ---------------                                                                                                
+Rental                15    $36,875.19        2458.346                                                                                                
+Repair                15     $7,638.73      509.248667                                                                                                
+Invoice               15       $797.39      53.1593333                                                                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 3: Revenue by Instrument Type (Rentals)
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+INSTRUMENT_TYPE NUM_RENTALS TOTAL_REVENUE AVG_RENTAL_COST                                                                                             
+--------------- ----------- ------------- ---------------                                                                                             
+Guitar                    5    $16,749.40         3349.88                                                                                             
+Saxophone                 5    $10,357.93        2071.586                                                                                             
+Piano                     5     $9,767.86        1953.572                                                                                             
+                            -------------                                                                                                             
+TOTAL RENTAL RE                $36,875.19                                                                                                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 4: Top 5 Customers by Total Revenue
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+   CUST_ID CUSTOMER_NAME        TOTAL_REVENUE                                                                                                         
+---------- -------------------- -------------                                                                                                         
+         6 Kirsteni Brimblecomb     $5,667.64                                                                                                         
+         2 Morganica Truder         $5,147.44                                                                                                         
+         7 Nicol Wigzell            $4,568.00                                                                                                         
+         5 Codi Stillmann           $4,317.32                                                                                                         
+        11 Shawn Hickeringill       $3,899.22                                                                                                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 5: Outstanding Invoices (Not Yet Paid)
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+INVOICE_ID CUSTOMER_NAME        INVOICE_DA DAYS_OUTSTANDING INVOICE_TOTAL                                                                             
+---------- -------------------- ---------- ---------------- -------------                                                                             
+        15                      03/11/2025              269         50.07                                                                             
+                                                            -------------                                                                             
+TOTAL OUTS                                                          50.07                                                                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 6: Rental Revenue Trend (Last 12 Months)
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+MONTH   NUM_RENTALS MONTHLY_REVENUE AVG_RENTAL_COST                                                                                                   
+------- ----------- --------------- ---------------                                                                                                   
+2020-12           1         1859.24         1859.24                                                                                                   
+2020-07           2         6891.82         3445.91                                                                                                   
+2020-02           1          442.77          442.77                                                                                                   
+2020-01           1         2894.93         2894.93                                                                                                   
+2019-11           1         4852.78         4852.78                                                                                                   
+2019-05           1         4134.26         4134.26                                                                                                   
+2019-02           1           979.4           979.4                                                                                                   
+2018-12           1         4969.19         4969.19                                                                                                   
+2018-11           1          2333.7          2333.7                                                                                                   
+2018-10           1         1993.46         1993.46                                                                                                   
+2018-05           1         2080.39         2080.39                                                                                                   
+2016-12           1         1691.44         1691.44                                                                                                   
+2015-11           1         1640.15         1640.15                                                                                                   
+2015-08           1          111.66          111.66                                                                                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 7: Repair Revenue by Instrument Type
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+INSTRUMENT_TYPE NUM_REPAIRS TOTAL_REPAIR_COST AVG_REPAIR_COST                                                                                         
+--------------- ----------- ----------------- ---------------                                                                                         
+Saxophone                 5           3203.52         640.704                                                                                         
+Guitar                    5           2437.31         487.462                                                                                         
+Piano                     5            1997.9          399.58                                                                                         
+                            -----------------                                                                                                         
+TOTAL REPAIR RE                       7638.73                                                                                                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 8: Invoice Totals by Month
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+INVOICE NUM_INVOICES MONTHLY_INVOICE_TOTAL AVG_INVOICE_AMOUNT                                                                                         
+------- ------------ --------------------- ------------------                                                                                         
+2025-11            1                 51.76              51.76                                                                                         
+2025-10            3                245.35         81.7833333                                                                                         
+2025-08            1                 11.65              11.65                                                                                         
+2025-07            2                 86.08              43.04                                                                                         
+2025-04            2                114.91             57.455                                                                                         
+2025-03            2                 88.63             44.315                                                                                         
+2025-02            2                 40.42              20.21                                                                                         
+2024-12            2                158.59             79.295                                                                                         
+                     ---------------------                                                                                                            
+TOTAL I                             797.39                                                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 9: Overall Financial Summary
+================================================
+
+
+                                                               Rental Management System                                                               
+                                                               Financial Summary Report                                                               
+                                                                                                                                                      
+SUMMARY_CATEGORY          AMOUNT                                                                                                                      
+--------------------- ----------                                                                                                                      
+Total Rental Revenue    36875.19                                                                                                                      
+Total Repair Revenue     7638.73                                                                                                                      
+Total Invoice Revenue     797.39                                                                                                                      
+GRAND TOTAL REVENUE     45311.31                                                                                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 05-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
