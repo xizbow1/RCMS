@@ -2,8 +2,6 @@
 -- CS325 - Fall 2025
 -- 11/3/25
 
-set feedback off
-
 -- Table to hold a supplier. Supplier phone and email can be null because there may be other contact methods.
 drop table Supplier cascade constraints;
 create table Supplier (
@@ -75,6 +73,17 @@ create table Rental (
     foreign key (Cust_id) references Customer(Cust_id),
     foreign key (Inst_id) references Instrument(Inst_id)
 );
+
+create or replace trigger trg_update_instrument_rented
+after insert on rental
+for each row
+begin
+    update Instrument
+    set Inst_isRented = '1'
+    where Inst_id = :new.Inst_id;
+end;
+/
+    
 
 -- Table to hold repair orders. Inst_id can be null because it can be a customer instrument. Repair cost can be null because it can be free.
 drop table Repair cascade constraints;
