@@ -61,7 +61,7 @@ SECTION 1: Active Rentals (No Due Date)
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ============================================
@@ -74,19 +74,19 @@ SECTION 2: Overdue Rentals (Past Due Date)
                                                                                                                                                       
  RENTAL_ID CUSTOMER_NAME        INSTRUMENT_TYPE RENTAL_DUE   DAYS_OVERDUE RENTAL_COST                                                                 
 ---------- -------------------- --------------- ------------ ------------ -----------                                                                 
-         9 Sergent Everingham   Saxophone       06/21/2021           1628     $979.40                                                                 
-        13 Jillene Nisby        Piano           08/09/2021           1579     $442.77                                                                 
-         5 Codi Stillmann       Guitar          08/09/2021           1579   $3,269.16                                                                 
-        15 Mason Gadsden        Saxophone       03/25/2023            986   $2,333.70                                                                 
-         4 Ezequiel McChruiter  Piano           04/15/2023            965   $1,859.24                                                                 
-         1 Shayne Phayre        Piano           11/22/2023            744   $1,691.44                                                                 
-         6 Kirsteni Brimblecomb Saxophone       12/11/2023            725   $4,852.78                                                                 
-        11 Shawn Hickeringill   Guitar          06/07/2024            546   $3,622.66                                                                 
-        12 Claudetta Harwick    Saxophone       08/15/2024            477     $111.66                                                                 
-         3 Ira Downer           Saxophone       10/31/2024            400   $2,080.39                                                                 
-         8 Sigismond Jeffery    Guitar          11/30/2024            370   $2,894.93                                                                 
-         7 Nicol Wigzell        Piano           06/06/2025            182   $4,134.26                                                                 
-         2 Morganica Truder     Guitar          09/02/2025             94   $4,969.19                                                                 
+         9 Sergent Everingham   Saxophone       06/21/2021           1630     $979.40                                                                 
+        13 Jillene Nisby        Piano           08/09/2021           1581     $442.77                                                                 
+         5 Codi Stillmann       Guitar          08/09/2021           1581   $3,269.16                                                                 
+        15 Mason Gadsden        Saxophone       03/25/2023            988   $2,333.70                                                                 
+         4 Ezequiel McChruiter  Piano           04/15/2023            967   $1,859.24                                                                 
+         1 Shayne Phayre        Piano           11/22/2023            746   $1,691.44                                                                 
+         6 Kirsteni Brimblecomb Saxophone       12/11/2023            727   $4,852.78                                                                 
+        11 Shawn Hickeringill   Guitar          06/07/2024            548   $3,622.66                                                                 
+        12 Claudetta Harwick    Saxophone       08/15/2024            479     $111.66                                                                 
+         3 Ira Downer           Saxophone       10/31/2024            402   $2,080.39                                                                 
+         8 Sigismond Jeffery    Guitar          11/30/2024            372   $2,894.93                                                                 
+         7 Nicol Wigzell        Piano           06/06/2025            184   $4,134.26                                                                 
+         2 Morganica Truder     Guitar          09/02/2025             96   $4,969.19                                                                 
 
 
 
@@ -126,7 +126,7 @@ SECTION 2: Overdue Rentals (Past Due Date)
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ================================================
@@ -191,7 +191,7 @@ TOTAL REVENUE:                 $36,875.19
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ==========================================
@@ -256,7 +256,7 @@ SECTION 4: Top 5 Customers by Rental Cost
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ============================================
@@ -269,9 +269,9 @@ SECTION 5: Rental Duration Analysis
                                                                                                                                                       
  RENTAL_ID CUSTOMER_NAME        INSTRUMENT_TYPE RENTAL_START RENTAL_DUE   DAYS_RENTED RENTAL_COST                                                     
 ---------- -------------------- --------------- ------------ ------------ ----------- -----------                                                     
-        10 Cathee Arcase        Piano           11/22/2015                       3666   $1,640.15                                                     
+        10 Cathee Arcase        Piano           11/22/2015                       3668   $1,640.15                                                     
         12 Claudetta Harwick    Saxophone       08/16/2015   08/15/2024          3287     $111.66                                                     
-        14 Bink Giacobillo      Guitar          10/17/2018                       2606   $1,993.46                                                     
+        14 Bink Giacobillo      Guitar          10/17/2018                       2608   $1,993.46                                                     
          1 Shayne Phayre        Piano           12/12/2016   11/22/2023          2536   $1,691.44                                                     
          2 Morganica Truder     Guitar          12/05/2018   09/02/2025          2463   $4,969.19                                                     
          3 Ira Downer           Saxophone       05/20/2018   10/31/2024          2356   $2,080.39                                                     
@@ -321,7 +321,7 @@ SECTION 5: Rental Duration Analysis
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ===============================================
@@ -386,7 +386,7 @@ SECTION 6: Most and Least Rented Instruments
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ==========================================
@@ -451,7 +451,7 @@ MONTH   NUM_RENTALS TOTAL_REVENUE   AVG_COST
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
 
 ========================================
@@ -516,5 +516,5 @@ GRAND TOTAL:                                                         ##########
 
 
 
-                                                                Report Date: 05-DEC-25                                                                
+                                                                Report Date: 07-DEC-25                                                                
                                                     Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    

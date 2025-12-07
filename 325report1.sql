@@ -177,4 +177,7 @@ order by i.Inst_subtype, r.Rental_start desc;
 clear breaks
 clear computes
 
+ttitle off
+btitle off
+
 spool off
