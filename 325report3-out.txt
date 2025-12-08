@@ -1,0 +1,330 @@
+
+========================================
+SECTION 1: Employees and their Salaries
+========================================
+
+
+                                                               Employee Tracking System                                                               
+                                                                    Employee Report                                                                   
+                                                                                                                                                      
+EMPL_ID EMPL_JOB_TITLE                           EMPLOYEE_NAME             EMPL_SALARY SALARY                                                         
+------- ---------------------------------------- ------------------------- ----------- ------                                                         
+      2 Music Instructor                         Kacey Dalwood                69990.98 High                                                           
+     10 Inventory Specialist                     Thebault Matuszewski         68465.72 High                                                           
+     12 Customer Service Rep                     Mitzi Gullberg               65745.62 High                                                           
+     15 Customer Service Rep                     Idelle Gorvin                65738.24 High                                                           
+      9 Music Instructor                         Jareb Edgerly                64939.21 High                                                           
+      6 Store Manager                            Ax Burth                     61473.47 Medium                                                         
+      8 Customer Service Rep                     Bordie Tupling               61005.97 Medium                                                         
+     14 Customer Service Rep                     Bruis Lackington             60501.53 Medium                                                         
+      1 Store Manager                            Horten Kime                  60461.19 Medium                                                         
+     13 Music Instructor                         Loren Longbone               60176.91 Medium                                                         
+      3 Sales Associate                          Gwenny Bomfield              56506.45 Low                                                            
+      4 Music Instructor                         Alphonse Gerdes              34755.79 Low                                                            
+      5 Inventory Specialist                     Ignazio Lambillion            33121.2 Low                                                            
+     11 Store Manager                            Myrvyn Kike                   32607.6 Low                                                            
+      7 Sales Associate                          Chelsy Dunford               30116.43 Low                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+SECTION 2: Who is teaching classes
+========================================
+
+
+                                                               Employee Tracking System                                                               
+                                                                    Employee Report                                                                   
+                                                                                                                                                      
+EMPL_ID EMPLOYEE_NAME             CLASSES_TAUGHT                                                                                                      
+------- ------------------------- --------------                                                                                                      
+      5 Ignazio Lambillion                     5                                                                                                      
+      1 Horten Kime                            2                                                                                                      
+     10 Thebault Matuszewski                   2                                                                                                      
+      8 Bordie Tupling                         2                                                                                                      
+      2 Kacey Dalwood                          1                                                                                                      
+      4 Alphonse Gerdes                        1                                                                                                      
+     14 Bruis Lackington                       1                                                                                                      
+     11 Myrvyn Kike                            1                                                                                                      
+     12 Mitzi Gullberg                         0                                                                                                      
+      3 Gwenny Bomfield                        0                                                                                                      
+     15 Idelle Gorvin                          0                                                                                                      
+     13 Loren Longbone                         0                                                                                                      
+      6 Ax Burth                               0                                                                                                      
+      9 Jareb Edgerly                          0                                                                                                      
+      7 Chelsy Dunford                         0                                                                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+                                                               Employee Tracking System                                                               
+                                                                    Employee Report                                                                   
+                                                                                                                                                      
+  CLASS_ID C CLASS_COST CLASS_SCHE EMPL_ID EMPLOYEE_NAME                                                                                              
+---------- - ---------- ---------- ------- -------------------------                                                                                  
+         3 1     428.79 02/26/2020       4 Alphonse Gerdes                                                                                            
+         8 3     252.41 10/28/2028       8 Bordie Tupling                                                                                             
+         9 3      442.4 04/14/2020       8 Bordie Tupling                                                                                             
+         2 2        411 12/04/2026      14 Bruis Lackington                                                                                           
+         4 3      129.3 07/09/2026       1 Horten Kime                                                                                                
+        10 1     412.32 01/07/2029       1 Horten Kime                                                                                                
+        15 1     266.47 08/18/2021       5 Ignazio Lambillion                                                                                         
+        13 3     493.59 11/14/2024       5 Ignazio Lambillion                                                                                         
+         7 1      260.6 07/22/2029       5 Ignazio Lambillion                                                                                         
+         1 3     240.16 12/26/2022       5 Ignazio Lambillion                                                                                         
+        14 1     178.27 07/15/2020       5 Ignazio Lambillion                                                                                         
+         5 1      487.4 09/27/2030       2 Kacey Dalwood                                                                                              
+        11 3      30.13 01/21/2020      11 Myrvyn Kike                                                                                                
+         6 3     145.13 02/05/2026      10 Thebault Matuszewski                                                                                       
+        12 1     481.27 01/26/2024      10 Thebault Matuszewski                                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+SECTION 3: Employees and their Emails
+========================================
+
+
+                                                               Employee Tracking System                                                               
+                                                                    Employee Report                                                                   
+                                                                                                                                                      
+EMPL_ID EMPLOYEE_NAME             EMPL_EMAIL                                                                                                          
+------- ------------------------- --------------------------------------------------                                                                  
+      1 Horten Kime               apeperell0@behance.net                                                                                              
+      2 Kacey Dalwood             faery1@vistaprint.com                                                                                               
+      3 Gwenny Bomfield           dkinge2@biglobe.ne.jp                                                                                               
+      4 Alphonse Gerdes           ddobrowski3@github.com                                                                                              
+      5 Ignazio Lambillion        cglackin4@google.com                                                                                                
+      6 Ax Burth                  tbanker5@examiner.com                                                                                               
+      7 Chelsy Dunford            lbilfoot6@mtv.com                                                                                                   
+      8 Bordie Tupling            vjonathon7@narod.ru                                                                                                 
+      9 Jareb Edgerly             msrutton8@netscape.com                                                                                              
+     10 Thebault Matuszewski      rgagan9@tinypic.com                                                                                                 
+     11 Myrvyn Kike               bvautina@columbia.edu                                                                                               
+     12 Mitzi Gullberg            slynesb@sciencedaily.com                                                                                            
+     13 Loren Longbone            dstaniforthc@unc.edu                                                                                                
+     14 Bruis Lackington          uhalesd@mac.com                                                                                                     
+     15 Idelle Gorvin             sskittlee@t-online.de                                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+SECTION 4: Payroll Summary by Job Title
+========================================
+
+
+                                                               Employee Tracking System                                                               
+                                                                    Employee Report                                                                   
+                                                                                                                                                      
+JOB_TITLE                                NUM_EMPLOYEES TOTAL_PAYROLL AVG_SALARY MIN_SALARY MAX_SALARY                                                 
+---------------------------------------- ------------- ------------- ---------- ---------- ----------                                                 
+Customer Service Rep                                 4     252991.36   63247.84   60501.53   65745.62                                                 
+Music Instructor                                     4     229862.89 57465.7225   34755.79   69990.98                                                 
+Store Manager                                        3     154542.26 51514.0867    32607.6   61473.47                                                 
+Inventory Specialist                                 2     101586.92   50793.46    33121.2   68465.72                                                 
+Sales Associate                                      2      86622.88   43311.44   30116.43   56506.45                                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+SECTION 5: Employee Workload Analysis
+========================================
+
+
+                                                               Employee Tracking System                                                               
+                                                                    Employee Report                                                                   
+                                                                                                                                                      
+EMPL_ID EMPLOYEE_NA

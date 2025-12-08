@@ -72,7 +72,7 @@ compute sum label 'TOTAL REVENUE:' of Total_Revenue on report
 select i.Inst_supertype as Instrument_Type,
        count(r.Rental_id) as Num_Rentals,
        sum(r.Rental_cost) as Total_Revenue,
-       avg(r.Rental_cost) as Avg_Cost
+       round(sum(r.Rental_cost) / (select sum(Rental_cost) from Rental) * 100, 2) as Pct_of_Total
 from Rental r
 join Instrument i on r.Inst_id = i.Inst_id
 group by i.Inst_supertype
