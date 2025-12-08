@@ -92,3 +92,5 @@ from Employee e
 left join Class c on e.Empl_id = c.Empl_id
 group by e.Empl_id, e.Empl_fname, e.Empl_lname, e.Empl_salary
 order by Classes_Taught desc;
+
+spool off
