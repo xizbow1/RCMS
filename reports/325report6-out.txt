@@ -1,0 +1,460 @@
+
+================================================
+SECTION 1: All Instruments with Status
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+   INST_ID INSTRUMENT_TYPE INSTRUMENT_SUBTYPE    INST_PRICE AVAILABILITY INST_STATUS                                                                  
+---------- --------------- -------------------- ----------- ------------ ---------------                                                              
+         2 Guitar          Electric Guitar           $18.04 Rentable     Overdue                                                                      
+         5 Guitar          Acoustic Guitar            $5.18 Not Rentable Overdue                                                                      
+         8 Guitar          Electric Guitar           $57.45 Rentable     Overdue                                                                      
+        11 Guitar          Acoustic Guitar           $32.62 Rentable     Overdue                                                                      
+        14 Guitar          Electric Guitar           $79.25 Not Rentable Available                                                                    
+         1 Piano           Grand Piano               $98.10 Not Rentable Overdue                                                                      
+         4 Piano           Upright Piano             $87.18 Not Rentable Overdue                                                                      
+         7 Piano           Grand Piano               $97.99 Not Rentable Overdue                                                                      
+        10 Piano           Upright Piano             $25.09 Rentable     Available                                                                    
+        13 Piano           Grand Piano               $29.02 Rentable     Overdue                                                                      
+         3 Saxophone       Alto Saxophone            $62.32 Rentable     Overdue                                                                      
+         6 Saxophone       Baritone Saxophone        $30.24 Not Rentable Overdue                                                                      
+         9 Saxophone       Alto Saxophone            $23.72 Rentable     Overdue                                                                      
+        12 Saxophone       Baritone Saxophone        $15.35 Not Rentable Overdue                                                                      
+        15 Saxophone       Alto Saxophone            $32.78 Rentable     Overdue                                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 2: Rental Frequency by Instrument
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+   INST_ID INSTRUMENT_TYPE INSTRUMENT_SUBTYPE   TIMES_RENTED RENTAL_REVENUE AVG_RENTAL                                                                
+---------- --------------- -------------------- ------------ -------------- ----------                                                                
+         2 Guitar          Electric Guitar                 1      $4,969.19  $4,969.19                                                                
+         6 Saxophone       Baritone Saxophone              1      $4,852.78  $4,852.78                                                                
+         7 Piano           Grand Piano                     1      $4,134.26  $4,134.26                                                                
+        11 Guitar          Acoustic Guitar                 1      $3,622.66  $3,622.66                                                                
+         5 Guitar          Acoustic Guitar                 1      $3,269.16  $3,269.16                                                                
+         8 Guitar          Electric Guitar                 1      $2,894.93  $2,894.93                                                                
+        15 Saxophone       Alto Saxophone                  1      $2,333.70  $2,333.70                                                                
+         3 Saxophone       Alto Saxophone                  1      $2,080.39  $2,080.39                                                                
+        14 Guitar          Electric Guitar                 1      $1,993.46  $1,993.46                                                                
+         4 Piano           Upright Piano                   1      $1,859.24  $1,859.24                                                                
+         1 Piano           Grand Piano                     1      $1,691.44  $1,691.44                                                                
+        10 Piano           Upright Piano                   1      $1,640.15  $1,640.15                                                                
+         9 Saxophone       Alto Saxophone                  1        $979.40    $979.40                                                                
+        13 Piano           Grand Piano                     1        $442.77    $442.77                                                                
+        12 Saxophone       Baritone Saxophone              1        $111.66    $111.66                                                                
+                                                ------------ --------------                                                                           
+TOTAL RENT                                                15     $36,875.19                                                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 3: Repair History by Instrument
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+   INST_ID INSTRUMENT_TYPE INSTRUMENT_SUBTYPE   TIMES_REPAIRED REPAIR_COST AVG_REPAIR                                                                 
+---------- --------------- -------------------- -------------- ----------- ----------                                                                 
+         5 Guitar          Acoustic Guitar                   1     $958.23    $958.23                                                                 
+         1 Piano           Grand Piano                       1     $946.79    $946.79                                                                 
+         3 Saxophone       Alto Saxophone                    1     $849.77    $849.77                                                                 
+         6 Saxophone       Baritone Saxophone                1     $804.41    $804.41                                                                 
+         9 Saxophone       Alto Saxophone                    1     $732.31    $732.31                                                                 
+        14 Guitar          Electric Guitar                   1     $620.21    $620.21                                                                 
+        15 Saxophone       Alto Saxophone                    1     $577.60    $577.60                                                                 
+        10 Piano           Upright Piano                     1     $544.21    $544.21                                                                 
+         8 Guitar          Electric Guitar                   1     $494.38    $494.38                                                                 
+         7 Piano           Grand Piano                       1     $373.10    $373.10                                                                 
+        12 Saxophone       Baritone Saxophone                1     $239.43    $239.43                                                                 
+        11 Guitar          Acoustic Guitar                   1     $238.00    $238.00                                                                 
+         2 Guitar          Electric Guitar                   1     $126.49    $126.49                                                                 
+         4 Piano           Upright Piano                     1     $110.92    $110.92                                                                 
+        13 Piano           Grand Piano                       1      $22.88     $22.88                                                                 
+                                                -------------- -----------                                                                            
+TOTAL REPA                                                  15   $7,638.73                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 4: ROI Analysis (Rental Revenue vs. Price)
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+   INST_ID INSTRUMENT_TYPE INSTRUMENT_SUBTYPE    INST_PRICE RENTAL_REVENUE REPAIR_COST NET_REVENUE ROI_PCT ROI_STATUS                                 
+---------- --------------- -------------------- ----------- -------------- ----------- ----------- ------- ---------------                            
+         5 Guitar          Acoustic Guitar            $5.18      $3,269.16     $958.23   $2,310.93 ####### Profitable                                 
+         2 Guitar          Electric Guitar           $18.04      $4,969.19     $126.49   $4,842.70 ####### Profitable                                 
+         6 Saxophone       Baritone Saxophone        $30.24      $4,852.78     $804.41   $4,048.37 ####### Profitable                                 
+        11 Guitar          Acoustic Guitar           $32.62      $3,622.66     $238.00   $3,384.66 ####### Profitable                                 
+        15 Saxophone       Alto Saxophone            $32.78      $2,333.70     $577.60   $1,756.10 ####### Profitable                                 
+        10 Piano           Upright Piano             $25.09      $1,640.15     $544.21   $1,095.94 ####### Profitable                                 
+         8 Guitar          Electric Guitar           $57.45      $2,894.93     $494.38   $2,400.55 ####### Profitable                                 
+         7 Piano           Grand Piano               $97.99      $4,134.26     $373.10   $3,761.16 ####### Profitable                                 
+         4 Piano           Upright Piano             $87.18      $1,859.24     $110.92   $1,748.32 ####### Profitable                                 
+         3 Saxophone       Alto Saxophone            $62.32      $2,080.39     $849.77   $1,230.62 ####### Profitable                                 
+        14 Guitar          Electric Guitar           $79.25      $1,993.46     $620.21   $1,373.25 ####### Profitable                                 
+        13 Piano           Grand Piano               $29.02        $442.77      $22.88     $419.89 ####### Profitable                                 
+         9 Saxophone       Alto Saxophone            $23.72        $979.40     $732.31     $247.09 ####### Profitable                                 
+         1 Piano           Grand Piano               $98.10      $1,691.44     $946.79     $744.65  759.07 Profitable                                 
+        12 Saxophone       Baritone Saxophone        $15.35        $111.66     $239.43    -$127.77 -832.38 Loss                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 5: Instruments Never Rented
+================================================
+
+
+================================================
+SECTION 6: Maintenance Cost vs. Revenue by Type
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+INSTRUMENT_TYPE NUM_INSTRUMENTS TOTAL_RENTAL_REV TOTAL_REPAIR_COST NET_REVENUE REVENUE_TO_COST_RATIO                                                  
+--------------- --------------- ---------------- ----------------- ----------- ---------------------                                                  
+Guitar                        5          16749.4           2437.31  $14,312.09                  6.87                                                  
+Piano                         5          9767.86            1997.9   $7,769.96                  4.89                                                  
+Saxophone                     5         10357.93           3203.52   $7,154.41                  3.23                                                  
+                                ---------------- ----------------- -----------                                                                        
+TOTAL:                                  36875.19           7638.73  $29,236.46                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 7: High Maintenance Instruments (Most Repairs)
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+   INST_ID INSTRUMENT_TYPE INSTRUMENT_SUBTYPE   TIMES_REPAIRED TOTAL_REPAIR_COST LAST_REPA                                                            
+---------- --------------- -------------------- -------------- ----------------- ---------                                                            
+         5 Guitar          Acoustic Guitar                   1            958.23 21-SEP-28                                                            
+         1 Piano           Grand Piano                       1            946.79 09-JUL-17                                                            
+         3 Saxophone       Alto Saxophone                    1            849.77 13-MAR-16                                                            
+         6 Saxophone       Baritone Saxophone                1            804.41 25-FEB-28                                                            
+         9 Saxophone       Alto Saxophone                    1            732.31 14-DEC-23                                                            
+        14 Guitar          Electric Guitar                   1            620.21 04-JUN-27                                                            
+        15 Saxophone       Alto Saxophone                    1             577.6 18-JUL-28                                                            
+        10 Piano           Upright Piano                     1            544.21 24-MAR-23                                                            
+         8 Guitar          Electric Guitar                   1            494.38 04-OCT-30                                                            
+         7 Piano           Grand Piano                       1             373.1 09-JUL-29                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+================================================
+SECTION 8: Utilization Rate by Instrument Type
+================================================
+
+
+                                                             Instrument Management System                                                             
+                                                     Instrument Utilization and Maintenance Report                                                    
+                                                                                                                                                      
+INSTRUMENT_TYPE TOTAL_INSTRUMENTS RENTABLE_COUNT EVER_RENTED_COUNT UTILIZATION_PCT                                                                    
+--------------- ----------------- -------------- ----------------- ---------------                                                                    
+Piano                           5              2                 5          250.00                                                                    
+Saxophone                       5              3                 5          166.67                                                                    
+Guitar                          5              3                 5          166.67                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
