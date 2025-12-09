@@ -1,0 +1,325 @@
+
+========================================
+Section 1: Parts, their stock, and their suppliers
+========================================
+
+
+                                                               Supplier and Parts Report                                                              
+                                                    Supplier Contact Information and Part Inventory                                                   
+                                                                                                                                                      
+PART_ID PART_TYPE       PART_PRICE PART_STOCK TOTAL_VALUE SUPPLIER_NAME                                                                               
+------- --------------- ---------- ---------- ----------- ------------------------------                                                              
+      1 cymbals              15.22          2       30.44 Hermann, Kris and McLaughlin                                                                
+      2 strings               19.5          8         156 Bernhard, Wisozk and Dare                                                                   
+      3 valves               69.86          9      628.74 Bode, Kris and Corwin                                                                       
+      4 pegs                  3.32         10        33.2 Hilpert, Hauck and Bogisich                                                                 
+      5 mouthpiece           40.12          0           0 Dach Inc                                                                                    
+      6 cymbals              33.36          2       66.72 Thompson, O'Hara and Prohaska                                                               
+      7 drumheads            72.63          3      217.89 Corwin-Aufderhar                                                                            
+      8 valves               11.83          9      106.47 Kassulke-Franecki                                                                           
+      9 drumheads             4.05          5       20.25 Bechtelar Group                                                                             
+     10 valves               32.99         10       329.9 Homenick-Gutmann                                                                            
+     11 valves               27.64          8      221.12 Block-Grant                                                                                 
+     12 tuning knobs         86.17          0           0 Feil, Reichert and Sporer                                                                   
+     13 reeds                 21.7          1        21.7 Renner-MacGyver                                                                             
+     14 cymbals              56.12          5       280.6 Ortiz, Emard and Bashirian                                                                  
+     15 drumheads            39.34          4      157.36 Graham-Murazik                                                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+Section 2: Supplier Information
+========================================
+
+
+                                                               Supplier and Parts Report                                                              
+                                                    Supplier Contact Information and Part Inventory                                                   
+                                                                                                                                                      
+SUPPLIER_ID SUPPLIER_NAME                  SUPPLIER_P SUPPLIER_EMAIL                 NUM_PARTS_SUPPLIED                                               
+----------- ------------------------------ ---------- ------------------------------ ------------------                                               
+          9 Bechtelar Group                6675882338 lthorwarth8@netscape.com                        1                                               
+          2 Bernhard, Wisozk and Dare      5907755368 iferrierio1@blogspot.com                        1                                               
+         11 Block-Grant                    3026774726 zbenera@cnn.com                                 1                                               
+          3 Bode, Kris and Corwin          9165100158 daspole2@abc.net.au                             1                                               
+          7 Corwin-Aufderhar               9973156203 kattlee6@wsj.com                                1                                               
+          5 Dach Inc                       3888426243 echaves4@youku.com                              1                                               
+         12 Feil, Reichert and Sporer      2563388004 aklimshukb@wordpress.org                        1                                               
+         15 Graham-Murazik                 8693187759 sstreetleye@apache.org                          1                                               
+          1 Hermann, Kris and McLaughlin   8486758219 vattarge0@howstuffworks.com                     1                                               
+          4 Hilpert, Hauck and Bogisich    2305400799 dpykett3@tumblr.com                             1                                               
+         10 Homenick-Gutmann               9239477948 ljoseph9@salon.com                              1                                               
+          8 Kassulke-Franecki              2809344845 ahuckle7@ucoz.ru                                1                                               
+         14 Ortiz, Emard and Bashirian     1068252572 gjewettd@craigslist.org                         1                                               
+         13 Renner-MacGyver                1419021716 nslimmingc@dailymail.co.uk                      1                                               
+          6 Thompson, O'Hara and Prohaska  6608240820 laimson5@so-net.ne.jp                           1                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+Section 3: Parts to reorder (stock less than 3)
+========================================
+
+
+                                                               Supplier and Parts Report                                                              
+                                                    Supplier Contact Information and Part Inventory                                                   
+                                                                                                                                                      
+PART_ID PART_TYPE       PART_STOCK SUPPLIER_NAME                  SUPPLIER_P SUPPLIER_EMAIL                                                           
+------- --------------- ---------- ------------------------------ ---------- ------------------------------                                           
+      5 mouthpiece               0 Dach Inc                       3888426243 echaves4@youku.com                                                       
+     12 tuning knobs             0 Feil, Reichert and Sporer      2563388004 aklimshukb@wordpress.org                                                 
+     13 reeds                    1 Renner-MacGyver                1419021716 nslimmingc@dailymail.co.uk                                               
+      1 cymbals                  2 Hermann, Kris and McLaughlin   8486758219 vattarge0@howstuffworks.com                                              
+      6 cymbals                  2 Thompson, O'Hara and Prohaska  6608240820 laimson5@so-net.ne.jp                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+Section 4: Diversity of suppliers by part type
+========================================
+
+
+                                                               Supplier and Parts Report                                                              
+                                                    Supplier Contact Information and Part Inventory                                                   
+                                                                                                                                                      
+PART_TYPE       NUM_SUPPLIERS                                                                                                                         
+--------------- -------------                                                                                                                         
+valves                      4                                                                                                                         
+cymbals                     3                                                                                                                         
+drumheads                   3                                                                                                                         
+mouthpiece                  1                                                                                                                         
+pegs                        1                                                                                                                         
+reeds                       1                                                                                                                         
+strings                     1                                                                                                                         
+tuning knobs                1                                                                                                                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+Section 5: Inventory Value by Supplier
+========================================
+
+
+                                                               Supplier and Parts Report                                                              
+                                                    Supplier Contact Information and Part Inventory                                                   
+                                                                                                                                                      
+SUPPLIER_NAME             NUM_PARTS TOTAL_INVENTORY_VALUE AVG_PART_VALUE                                                                              
+------------------------- --------- --------------------- --------------                                                                              
+Bode, Kris and Corwin             1               $628.74        $628.74                                                                              
+Homenick-Gutmann                  1               $329.90        $329.90                                                                              
+Ortiz, Emard and Bashiria         1               $280.60        $280.60                                                                              
+n                                                                                                                                                     
+                                                                                                                                                      
+Block-Grant                       1               $221.12        $221.12                                                                              
+Corwin-Aufderhar                  1               $217.89        $217.89                                                                              
+Graham-Murazik                    1               $157.36        $157.36                                                                              
+Bernhard, Wisozk and Dare         1               $156.00        $156.00                                                                              
+Kassulke-Franecki                 1               $106.47        $106.47                                                                              
+Thompson, O'Hara and Proh         1                $66.72         $66.72                                                                              
+aska                                                                                                                                                  
+                                                                                                                                                      
+Hilpert, Hauck and Bogisi         1                $33.20         $33.20                                                                              
+ch                                                                                                                                                    
+                                                                                                                                                      
+Hermann, Kris and McLaugh         1                $30.44         $30.44                                                                              
+lin                                                                                                                                                   
+                                                                                                                                                      
+Renner-MacGyver                   1                $21.70         $21.70                                                                              
+Bechtelar Group                   1                $20.25         $20.25                                                                              
+Feil, Reichert and Sporer         1                  $.00           $.00                                                                              
+Dach Inc                          1                  $.00           $.00                                                                              
+                                    ---------------------                                                                                             
+Average Value:                                    $151.36                                                                                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    

@@ -153,4 +153,108 @@ SECTION 3: Total revenue from each customer
         10 Cathee Arcase                     24.98                                                                                                    
          9 Sergent Everingham                13.34                                                                                                    
         12 Claudetta Harwick                 11.65                                                                                                    
-         6 Kirsteni Brimblecomb              10.45                                                                                       
+         6 Kirsteni Brimblecomb              10.45                                                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
+
+========================================
+SECTION 4: Outstanding rentals for each customer
+========================================
+
+
+                                                               Customer Analysis Report                                                               
+                                                        Comprehensive Customer Activity Report                                                        
+                                                                                                                                                      
+   CUST_ID CUSTOMER_NAME             NUM_OVERDUE TOTAL_COST_OVERDUE                                                                                   
+---------- ------------------------- ----------- ------------------                                                                                   
+         9 Sergent Everingham                  1              979.4                                                                                   
+        13 Jillene Nisby                       1             442.77                                                                                   
+        15 Mason Gadsden                       1             2333.7                                                                                   
+        12 Claudetta Harwick                   1             111.66                                                                                   
+         7 Nicol Wigzell                       1            4134.26                                                                                   
+         1 Shayne Phayre                       1            1691.44                                                                                   
+        11 Shawn Hickeringill                  1            3622.66                                                                                   
+         6 Kirsteni Brimblecomb                1            4852.78                                                                                   
+         4 Ezequiel McChruiter                 1            1859.24                                                                                   
+         8 Sigismond Jeffery                   1            2894.93                                                                                   
+         5 Codi Stillmann                      1            3269.16                                                                                   
+         3 Ira Downer                          1            2080.39                                                                                   
+         2 Morganica Truder                    1            4969.19                                                                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Report Date: 08-DEC-25                                                                
+                                                    Blake Culbertson, Andrew Gallimore, Abbi Ochoa                                                    
