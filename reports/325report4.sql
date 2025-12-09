@@ -64,4 +64,23 @@ select c.Cust_id,
 from Customer c
 left join Invoice i on c.Cust_id = i.Cust_id
 group by c.Cust_id, c.Cust_fname, c.Cust_lname
-order by Total_Revenue desc;
+order by Total_Revenue desc; 
+
+prompt
+prompt ========================================
+prompt SECTION 4: Outstanding rentals for each customer
+prompt ========================================
+prompt
+
+column Outstanding_Items format 999
+select c.Cust_id,
+       c.Cust_fname || ' ' || c.Cust_lname as Customer_Name,
+       count(r.Rental_id) as Num_Overdue,
+       sum(r.Rental_cost) as Total_Cost_Overdue
+from Rental r
+join Customer c on r.Cust_id = c.Cust_id
+where r.Rental_due < sysdate
+group by c.Cust_id, c.Cust_fname, c.Cust_lname
+order by Num_Overdue desc;
+
+spool off
